@@ -1,3 +1,4 @@
+David Y. Kay's Resume
 * * * * * * * * * * * * * * * * * *
 # David Y. Kay
 
@@ -6,7 +7,7 @@
 * * * * * * * * * * * * * * * * * *
 
 __David Y. Kay__  
-davidykay@gmail.com  
+DavidYKay@gmail.com  
 22 Fairway Drive  
 West Windsor, NJ 08550  
 

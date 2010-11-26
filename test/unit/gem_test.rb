@@ -21,7 +21,7 @@ class ResumeGemTest < Test::Unit::TestCase
 
   def test_text
     resume = Resume.new({})
-    assert_match "David Kay", resume.text
+    assert_match "David Y. Kay", resume.text
   end
 
   def test_latex

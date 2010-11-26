@@ -15,7 +15,7 @@ class ResumeTest < Test::Unit::TestCase
   def test_title_matches_user
     get '/'
     assert last_response.ok?
-    assert_match "<title>David Kay's Resume</title>", last_response.body
+    assert_match "<title>David Y. Kay's Resume</title>", last_response.body
   end
 
   def test_it_includes_a_email
@@ -32,7 +32,7 @@ class ResumeTest < Test::Unit::TestCase
   def test_it_can_display_markdown
     get '/markdown'
     assert last_response.ok?
-    assert_match "David Kay", last_response.body
+    assert_match "David Y. Kay", last_response.body
   end
 
   def test_it_supports_linked_formats
