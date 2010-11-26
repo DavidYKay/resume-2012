@@ -65,7 +65,7 @@ __Summary:__  Mobile application developer possessing extensive experience in iO
   
 __Deutsche Bank__  
 _iPad Consultant_  
-October 2010 – Present  
+October 2010 - Present  
   
 Working with the Deutsche Bank prime brokerage arm, designed and developed the __Global Prime__ application for iPhone and iPad. The application provides hedge fund managers an intuitive interface for viewing information about their trading activities in equities, bonds, swaps, and forex.
   
@@ -73,7 +73,7 @@ Balancing financial data security constraints against performance issues has bee
   
 __Rosetta Marketing Group__  
 _iPad Consultant_  
-August 2010 – September 2010  
+August 2010 - September 2010  
   
 Completed a series of iPad applications for a multinational pharmaceutical company under tight deadlines by executing a self-directed work plan.
 
