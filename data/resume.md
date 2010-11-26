@@ -102,28 +102,28 @@ Developed and maintained dynamic websites utilizing PHP, MySQL, and Javascript.
 # Professional Activities  
 
 [__New Jersey Mobile Meetup__](http://meetup.com/njmobile/)  
-May 2010 - Present  
+_May 2010 - Present_  
 Led the leading mobile technology group in New Jersey. This group consists of over one hundred and sixty entrepreneurs, technologists, and hobbyists who meet semimonthly to discuss mobile technology. Developed curriculum and conducted iPhone and Android programming seminars at Princeton University and the New Jersey Technology Centre.
 
 __Startup Weekend NYC - Arts & Tech__  
-November 2010  
+_November 2010_  
 Led a seven-man team to finish in fourth place overall, second place people's choice. Our app, __Artmented__, is an augmented reality Android application for drawing and viewing virtual graffiti overlaid on actual locations.
 
 __TechCrunch Disrupt Hackathon, San Francisco__  
-September 2010  
+_September 2010_  
 Led a two-man team in the 24-hour hackathon to finish in the top five of eighty-six, winning the “Creepiest Hack” award for __D8Coach__, an Android-based dating advice application.  
 
 [Personal postmortem](http://blog.davidykay.com/d8coach-hackaton-wrap-up).  [Press Coverage](http://techcrunch.com/2010/09/26/techcrunch-disrupt-hackathon-winner/).  
 
 __Startup Weekend NYC__  
-September 2010  
+_September 2010_  
 As the back-end developer for team __PlanWhere__, launched a Google App Engine-based travel / restaurant application harnessing the Facebook API, Yelp API, and page-scraping.
 
 * * * * * * * * * * * * * * * * * *
 # Other Skills
 
-_Mandarin Chinese_ - high proficiency and fluency.  
-_Ballroom dance_ - bronze competition level.  
+_Mandarin Chinese_ - High proficiency and fluency.  
+_Ballroom dance_ - Bronze competition level.  
 
 * * * * * * * * * * * * * * * * * *
 # Education
@@ -136,17 +136,14 @@ direction.
 _SAT:_ Reading 770, Writing: 780, Math: 740, Chinese: 800, Math 2: 770, Biology: 740
 
 __Mercer County Community College, West Windsor, NJ__  
-January 2008 – May 2010  
-
+_January 2008 - May 2010_  
 Computer Science. Using Java, developed a chess AI program that is competitive with a skilled human player. Using 8086 assembly, developed a bouncing balls screensaver.
 
 __George Washington University, Washington, DC__  
-September 2006 - May 2007  
-
+_September 2006 - May 2007_  
 Student at Elliot School of International Affairs. Social Chair of Sigma Nu Fraternity. Member of competitive ballroom dance team, placing in events such as the USA Dance Collegiate Championship.
 
 __School Year Abroad, Beijing, China__  
-August 2004 - June 2005  
-
+_August 2004 - June 2005_  
 Studied Chinese language and culture in Beijing. Traveled across China, visiting several major cities as well as remote provinces. Appeared as guest on a Chinese TV program to discuss differences between the Chinese sexual education system and that of the United States.
 
