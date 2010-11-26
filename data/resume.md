@@ -1,87 +1,148 @@
-Daniel Mayer  
-dan@mayerdan.com  
-503-819-3246  
-821 Maryland Ave NE #305  
-Washington, DC 20002  
+![alt text]( http://0.gravatar.com/avatar/30d6fbf81284ac9005e8e9ccc7ecfb1e?size=420 "David Y. Kay")
 
-[GitHub](http://github.com/danmayer)  
-[Blog](http://mayerdan.com)  
+David Y. Kay  
+davidykay@gmail.com  
+22 Fairway Drive  
+West Windsor, NJ 08550  
+
+[GitHub](http://github.com/magneus)  
+[Blog](http://blog.davidykay.com)  
+
+__Summary:__  Mobile application developer possessing extensive experience in iOS and Android. 
 
 Skills
 ----------------
 
-* Ruby
-  * Rails
-  * Sinatra
-  * Merb
-  * EventMachine
-  * DataMapper
-  * Custom EventMachine-based protocols
+* iOS
+  * OS 3.0-4.2
+  * Custom UI elements
+  * CoreAnimation
+  * CoreGraphics
+  * Geolocation
+  * Maps
+  * SQLite
+  * REST / JSON
+
+* Android
+  * OS 1.6
+  * OpenGL
+  * Compass 
+  * Accelerometer
+  * Camera
+  * Geolocation
+  * Maps
+  * SQLite
+  * REST / JSON
+
+* Web
+    * Python
+      * Django
+      * App Engine
+    * PHP5
 
 * Tools
-  * Linux
-  * OS X
-  * Javascript (JQuery/Prototype)
-  * HTML
-  * Amazon Web Services (Ec2, SimpleDB, S3, SQS)
-  * Distributed Computing
+  * Git
   * Apache
   * MySQL
-  * PostgreSQL
-  * Schemaless DBs (NoSql)
-  * RESTul webservice API's
+  * UNIX
 
-* Style
-  * Pair Programming
-  * Test-Focused Development
-  * Distributed Teams
-  * Agile team management
-  * Contributor to Ruby OSS software
-  * Active on Github
-
+* Misc
+    * UI Design
+    * Implementing UI elements from PSD designs
+    * Server / Build Automation
+        * Perl
+        * Ruby
+  
 Work Experience
 ---------------
-__LivingSocial__  
-Software Developer  
-June 2010 - Current  
-Working with a small team of developers to grow LivingSocial. Working on mobile apps, mobile site, APIs, and backend tools.  
+  
+__Deutsche Bank__  
+_iPad Consultant_  
+October 2010 – Present  
+  
+Working with the Deutsche Bank prime brokerage arm, designed and developed the __Global Prime__ application for iPhone and iPad. The application provides hedge fund managers an intuitive interface for viewing information about their trading activities in equities, bonds, swaps, and forex.
+  
+Balancing financial data security constraints against performance issues has been the most interesting challenge so far.  
 
-__Devver__  
-Founder / CTO / Ruby Software Developer  
-April 2008 - April 2010  
-Software startup to make the lives of developers easier. Originally developed accelerated testing for Ruby developers. More recently, launched getcaliper.com, which builds code analytics for all Rubygems and builds metrics for public and private git-based Ruby projects.  
+  
+__Rosetta Marketing Group__  
+_iPad Consultant_  
+August 2010 – September 2010  
+  
+Completed a series of iPad applications for a multinational pharmaceutical company under tight deadlines by executing a self-directed work plan.
 
-* Built accelerated testing tool, using distributed computing services to run developer tests
-* Developed a cloud-based continuous integration server and notification services
-* Developed cloud-based code metrics and analytics project analyzer, which integrated with Rubygems.org to provide analytics on all public Rubygems and many OSS git-based projects (7000+ projects)
-* Member of a distributed agile team -- practiced daily standups, remote pair programming, and continuous integration
-* Worked extensively with cloud based services and distributed computing techniques. (EC2, Beanstalkd queues, Schemaless SimpleDB, S3)
-* Developed and deployed EventMachine, Merb, Rails, and Sinatra in production environments
+The applications primarily enable pharmaceutical salesmen to download multimedia (PDF, HTML, video) promotional materials onto the iPad for offline presentation.  
 
-__Pretheory__  
-Founder  
-May 2007 - April 2008  
-Small Denver-based consumer web startup. Built [Seekler.com](http://seekler.com) to help people find the best of everything online by user generated, community-based top 10 lists on topics or products. Seekler was a social way to rank things with friends or the entire community.  
+The largest technical challenge was to develop a custom PDF viewer, as the standard PDF viewer in iOS is rather poor. I'm quite proud of the result.  
+  
 
-__Indigio__  
-Java Lead Engineer  
-August 2006 - May 2007  
-Developed web sites for Fortune 500 companies. Managed a small Java team with local and international remote employees.  
-
-* Developed and deployed large scale newspaper, real estate, and car rental companies Java sites
-
-
-__Impact Science & Technology (IST)__  
-Java Software Engineer  
-December 2005 - June 2006  
-Developed full lifecycle of a DOD distributed synchronous infrastructure in Java.  
+__icihere.com__
+_Lead Mobile Developer_  
+March 2009 - Current  
+  
+Developed, deployed, and maintained location-aware __ici__ mobile application for Apple iPhone and Google Android. Resolved complex memory management issues. Assisted in design of REST API. Administered icihere.com production Linux servers running: MySQL, Apache, PHP. Oversaw company source control using Git.  
+  
+  
+_Lead iPad Developer_  
+June 2010 - Current 
+  
+Developed iPad version of ici. Currently developing ici Magazine for the iPad. ici Magazine is a platform for magazine publishers to easily deliver their content as an iPad-optimized magazine.
+  
+__Inquisitive Research__  
+_Web Developer_  
+November 2008 - February 2009  
+  
+Developed and maintained content-driven websites utilizing PHP, MySQL, and Javascript.
 
 
-Education
----------------  
-University of Colorado  
-Boulder, CO  
-B.S., Computer Science  
-GPA: 3.185  
+PROFESSIONAL ACTIVITIES
+---------------
 
-_References available on request_  
+[__New Jersey Mobile Meetup__](http://meetup.com/njmobile/)  
+May 2010 - Present  
+Led the leading mobile technology group in New Jersey. This group consists of over one hundred and sixty entrepreneurs, technologists, and hobbyists who meet semimonthly to discuss mobile technology. Developed curriculum and conducted iPhone and Android programming seminars at Princeton University and the New Jersey Technology Centre.
+
+__Startup Weekend NYC - Arts & Tech__  
+November 2010  
+Led a seven-man team to finish in fourth place overall, second place people's choice. Our app, __Artmented__, is an augmented reality Android application for drawing and viewing virtual graffiti overlaid on actual locations.
+
+__TechCrunch Disrupt Hackathon, San Francisco__  
+September 2010  
+Led a two-man team in the 24-hour hackathon to finish in the top five of eighty-six, winning the “Creepiest Hack” award for __D8Coach__, an Android-based dating advice application.  
+
+[Personal postmortem](http://blog.davidykay.com/d8coach-hackaton-wrap-up).  [Press Coverage](http://techcrunch.com/2010/09/26/techcrunch-disrupt-hackathon-winner/).  
+
+__Startup Weekend NYC__  
+September 2010  
+Served as the back-end developer for team __PlanWhere__. Launched a Google App Engine-based travel / restaurant application harnessing the Facebook API, Yelp API, and page-scraping.
+
+OTHER SKILLS
+---------------
+
+_Mandarin Chinese_ - high proficiency and fluency.  
+_Ballroom dance_ - bronze competition level.  
+
+EDUCATION
+---------------
+
+_Summary:_ After starting college intending to major in international affairs, I discovered a passion
+for computer science. I transferred to local college to conserve financial resources and to reset my
+direction.  
+  
+_SAT:_ Reading 770, Writing: 780, Math: 740, Chinese: 800, Math 2: 770, Biology: 740
+
+__Mercer County Community College, West Windsor, NJ__  
+January 2008 – May 2010  
+
+Computer Science. Using Java, developed a chess AI program that is competitive with a skilled human player. Using 8086 assembly, developed a bouncing balls screensaver.
+
+__George Washington University, Washington, DC__  
+September 2006 - May 2007  
+
+Student at Elliot School of International Affairs. Social Chair of Sigma Nu Fraternity. Member of competitive ballroom dance team, placing in events such as the USA Dance Collegiate Championship.
+
+__School Year Abroad, Beijing, China__  
+August 2004 - June 2005  
+
+Studied Chinese language and culture in Beijing. Traveled across China, visiting several major cities as well as remote provinces. Appeared as guest on a Chinese TV program to discuss differences between the Chinese sexual education system and that of the United States.
+
