@@ -1,4 +1,3 @@
-David Y. Kay's Resume
 * * * * * * * * * * * * * * * * * *
 # David Y. Kay
 
