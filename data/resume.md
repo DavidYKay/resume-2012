@@ -128,7 +128,7 @@ _Ballroom dance_ - bronze competition level.
 * * * * * * * * * * * * * * * * * *
 # Education
 
-_Summary:_ 
+__Summary:__  
 My experience in China led me to major in international affairs. After realizing it was not a good use of my talents, I changed 
 I discovered my passion for computer science. I transferred to local college to conserve financial resources and to reset my
 direction.  

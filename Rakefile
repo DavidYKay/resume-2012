@@ -80,7 +80,7 @@ namespace :heroku do
 
   desc "create a heroku project for your resume"
   task :create do
-    unless ENV.include?("name")	
+    unless ENV.include?('name')	
       raise "usage: rake heroku:create name=PROJECT_NAME # example danmayer-resume\n" 
     end
     project_name = ENV['name']
