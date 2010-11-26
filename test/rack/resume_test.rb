@@ -11,16 +11,16 @@ class ResumeTest < Test::Unit::TestCase
     Sinatra::Application
   end
 
-  #todo make tests user independant
+  #todo make tests user independavidt
   def test_title_matches_user
     get '/'
     assert last_response.ok?
-    assert_match "<title>Dan Mayer's Resume</title>", last_response.body
+    assert_match "<title>David Kay's Resume</title>", last_response.body
   end
 
   def test_it_includes_a_email
     get '/'
-    assert last_response.body.match(/dan@mayerdan\.com/)
+    assert last_response.body.match(/DavidYKay@gmail\.com/)
   end
 
   def test_it_can_convert_to_latex
@@ -32,7 +32,7 @@ class ResumeTest < Test::Unit::TestCase
   def test_it_can_display_markdown
     get '/markdown'
     assert last_response.ok?
-    assert_match "Daniel Mayer", last_response.body
+    assert_match "David Kay", last_response.body
   end
 
   def test_it_supports_linked_formats

@@ -1,19 +1,25 @@
+* * * * * * * * * * * * * * * * * *
+# David Y. Kay
+
 ![alt text]( http://0.gravatar.com/avatar/30d6fbf81284ac9005e8e9ccc7ecfb1e?size=420 "David Y. Kay")
 
-David Y. Kay  
+* * * * * * * * * * * * * * * * * *
+
+__David Y. Kay__  
 davidykay@gmail.com  
 22 Fairway Drive  
 West Windsor, NJ 08550  
 
-[GitHub](http://github.com/magneus)  
-[Blog](http://blog.davidykay.com)  
+* [LinkedIn](http://linkedin.com/in/DavidYKay)  
+* [Blog](http://blog.davidykay.com)  
+* [GitHub](http://github.com/magneus)  
 
 __Summary:__  Mobile application developer possessing extensive experience in iOS and Android. 
 
-Skills
-----------------
+* * * * * * * * * * * * * * * * * *
+# Skills
 
-* iOS
+* __iOS__
   * OS 3.0-4.2
   * Custom UI elements
   * CoreAnimation
@@ -23,9 +29,8 @@ Skills
   * SQLite
   * REST / JSON
 
-* Android
+* __Android__
   * OS 1.6
-  * OpenGL
   * Compass 
   * Accelerometer
   * Camera
@@ -33,28 +38,29 @@ Skills
   * Maps
   * SQLite
   * REST / JSON
+  * OpenGL
 
-* Web
+* __Web__
     * Python
       * Django
       * App Engine
     * PHP5
 
-* Tools
+* __Tools__
   * Git
   * Apache
   * MySQL
   * UNIX
 
-* Misc
+* __Misc__
     * UI Design
     * Implementing UI elements from PSD designs
     * Server / Build Automation
         * Perl
         * Ruby
   
-Work Experience
----------------
+* * * * * * * * * * * * * * * * * *
+# Work Experience
   
 __Deutsche Bank__  
 _iPad Consultant_  
@@ -63,7 +69,6 @@ October 2010 – Present
 Working with the Deutsche Bank prime brokerage arm, designed and developed the __Global Prime__ application for iPhone and iPad. The application provides hedge fund managers an intuitive interface for viewing information about their trading activities in equities, bonds, swaps, and forex.
   
 Balancing financial data security constraints against performance issues has been the most interesting challenge so far.  
-
   
 __Rosetta Marketing Group__  
 _iPad Consultant_  
@@ -75,16 +80,14 @@ The applications primarily enable pharmaceutical salesmen to download multimedia
 
 The largest technical challenge was to develop a custom PDF viewer, as the standard PDF viewer in iOS is rather poor. I'm quite proud of the result.  
   
-
-__icihere.com__
+__icihere.com__  
 _Lead Mobile Developer_  
-March 2009 - Current  
+March 2009 - Present  
   
 Developed, deployed, and maintained location-aware __ici__ mobile application for Apple iPhone and Google Android. Resolved complex memory management issues. Assisted in design of REST API. Administered icihere.com production Linux servers running: MySQL, Apache, PHP. Oversaw company source control using Git.  
   
-  
 _Lead iPad Developer_  
-June 2010 - Current 
+June 2010 - Present 
   
 Developed iPad version of ici. Currently developing ici Magazine for the iPad. ici Magazine is a platform for magazine publishers to easily deliver their content as an iPad-optimized magazine.
   
@@ -92,11 +95,10 @@ __Inquisitive Research__
 _Web Developer_  
 November 2008 - February 2009  
   
-Developed and maintained content-driven websites utilizing PHP, MySQL, and Javascript.
+Developed and maintained dynamic websites utilizing PHP, MySQL, and Javascript.
 
-
-PROFESSIONAL ACTIVITIES
----------------
+* * * * * * * * * * * * * * * * * *
+# Professional Activities  
 
 [__New Jersey Mobile Meetup__](http://meetup.com/njmobile/)  
 May 2010 - Present  
@@ -114,19 +116,20 @@ Led a two-man team in the 24-hour hackathon to finish in the top five of eighty-
 
 __Startup Weekend NYC__  
 September 2010  
-Served as the back-end developer for team __PlanWhere__. Launched a Google App Engine-based travel / restaurant application harnessing the Facebook API, Yelp API, and page-scraping.
+As the back-end developer for team __PlanWhere__, launched a Google App Engine-based travel / restaurant application harnessing the Facebook API, Yelp API, and page-scraping.
 
-OTHER SKILLS
----------------
+* * * * * * * * * * * * * * * * * *
+# Other Skills
 
 _Mandarin Chinese_ - high proficiency and fluency.  
 _Ballroom dance_ - bronze competition level.  
 
-EDUCATION
----------------
+* * * * * * * * * * * * * * * * * *
+# Education
 
-_Summary:_ After starting college intending to major in international affairs, I discovered a passion
-for computer science. I transferred to local college to conserve financial resources and to reset my
+_Summary:_ 
+My experience in China led me to major in international affairs. After realizing it was not a good use of my talents, I changed 
+I discovered my passion for computer science. I transferred to local college to conserve financial resources and to reset my
 direction.  
   
 _SAT:_ Reading 770, Writing: 780, Math: 740, Chinese: 800, Math 2: 770, Biology: 740
