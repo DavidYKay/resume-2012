@@ -12,7 +12,7 @@ West Windsor, NJ 08550
 
 * [LinkedIn](http://linkedin.com/in/DavidYKay)  
 * [Blog](http://blog.davidykay.com)  
-* [GitHub](http://github.com/magneus)  
+* [GitHub](http://github.com/DavidYKay)  
 
 __Summary:__  Mobile application developer possessing extensive experience in iOS and Android. 
 
