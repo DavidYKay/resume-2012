@@ -110,7 +110,7 @@ Led a seven-man team to finish in fourth place overall, second place people's ch
 
 __TechCrunch Disrupt Hackathon, San Francisco__  
 _September 2010_  
-Led a two-man team in the 24-hour hackathon to finish in the top five of eighty-six, winning the “Creepiest Hack” award for __D8Coach__, an Android-based dating advice application.  
+Led a two-man team in the 24-hour hackathon to finish in the top five of eighty-six, winning the "Creepiest Hack" award for __D8Coach__, an Android-based dating advice application.  
 
 [Personal postmortem](http://blog.davidykay.com/d8coach-hackaton-wrap-up).  [Press Coverage](http://techcrunch.com/2010/09/26/techcrunch-disrupt-hackathon-winner/).  
 
