@@ -14,7 +14,7 @@ West Windsor, NJ 08550
 * [Blog](http://blog.davidykay.com)  
 * [GitHub](http://github.com/DavidYKay)  
 
-__Summary:__  Mobile application developer possessing extensive experience in iOS and Android. 
+__Summary:__  Award-winning mobile application developer possessing extensive experience in iOS and Android. 
 
 * * * * * * * * * * * * * * * * * *
 # Skills
