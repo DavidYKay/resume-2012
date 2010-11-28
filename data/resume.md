@@ -1,5 +1,4 @@
-* * * * * * * * * * * * * * * * * *
-# David Y. Kay
+# David Y. Kay's Resume
 
 ![alt text]( http://0.gravatar.com/avatar/30d6fbf81284ac9005e8e9ccc7ecfb1e?size=420 "David Y. Kay")
 
