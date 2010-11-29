@@ -58,7 +58,9 @@ Developed and maintained dynamic websites utilizing PHP, MySQL, and Javascript.
 
 [__New Jersey Mobile Meetup__](http://meetup.com/njmobile/)  
 _May 2010 - Present_  
-Led the leading mobile technology group in New Jersey. This group consists of over one hundred and sixty entrepreneurs, technologists, and hobbyists who meet semimonthly to discuss mobile technology. Developed curriculum and conducted iPhone and Android programming seminars at Princeton University and the New Jersey Technology Centre.
+Led the leading mobile technology group in New Jersey. This group consists of over one hundred and sixty entrepreneurs, technologists, and hobbyists who meet semimonthly to discuss mobile technology.  
+  
+Developed curriculum and conducted __iPhone and Android programming seminars__ at __Princeton University__ and the __New Jersey Technology Centre__.
 
 __Startup Weekend NYC - Arts & Tech__  
 _November 2010_  
