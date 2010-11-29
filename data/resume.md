@@ -38,7 +38,7 @@ __icihere.com__
 _Lead Mobile Developer_  
 March 2009 - Present  
   
-Developed, deployed, and maintained location-aware __ici__ mobile application for Apple iPhone and Google Android. ici is a prominent arts and culture application which 
+Developed, deployed, and maintained location-aware __ici__ mobile application for Apple iPhone and Google Android. ici is a prominent arts and culture application which enables organizations to create geo-aware content.
 
 Resolved complex memory management issues. Assisted in design of REST API. Administered icihere.com production Linux servers running: MySQL, Apache, PHP. Oversaw company source control using Git.  
   
