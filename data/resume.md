@@ -32,7 +32,7 @@ Completed a series of iPad applications, valued over one million dollars, for a 
 
 The applications primarily enable pharmaceutical salesmen to download multimedia (PDF, HTML, video) promotional materials onto the iPad for offline presentation.  
 
-The largest technical challenge was to develop a custom PDF viewer, as the standard PDF viewer in iOS is rather poor. 
+The largest technical challenge was to develop a custom PDF viewer, as the standard PDF viewer in iOS did not suit the client's needs. 
   
 __icihere.com__  
 _Lead Mobile Developer_  
