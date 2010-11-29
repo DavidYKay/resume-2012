@@ -16,74 +16,31 @@ West Windsor, NJ 08550
 __Summary:__  Award-winning mobile application developer possessing extensive experience in iOS and Android. 
 
 * * * * * * * * * * * * * * * * * *
-# Skills
-
-* __iOS__
-  * OS 3.0-4.2
-  * Custom UI elements
-  * CoreAnimation
-  * CoreGraphics
-  * Geolocation
-  * Maps
-  * SQLite
-  * REST / JSON
-
-* __Android__
-  * OS 1.6
-  * Compass 
-  * Accelerometer
-  * Camera
-  * Geolocation
-  * Maps
-  * SQLite
-  * REST / JSON
-  * OpenGL
-
-* __Web__
-    * Python
-      * Django
-      * App Engine
-    * PHP5
-
-* __Tools__
-  * Git
-  * Apache
-  * MySQL
-  * UNIX
-
-* __Misc__
-    * UI Design
-    * Implementing UI elements from PSD designs
-    * Server / Build Automation
-        * Perl
-        * Ruby
-  
-* * * * * * * * * * * * * * * * * *
 # Work Experience
   
 __Deutsche Bank__  
 _iPad Consultant_  
 October 2010 - Present  
   
-Working with the Deutsche Bank prime brokerage arm, designed and developed the __Global Prime__ application for iPhone and iPad. The application provides hedge fund managers an intuitive interface for viewing information about their trading activities in equities, bonds, swaps, and forex.
-  
-Balancing financial data security constraints against performance issues has been the most interesting challenge so far.  
+Working with the Deutsche Bank prime brokerage arm, designed and developed the __Global Prime__ application for iPhone and iPad, carefully balancing financial data security constraints against performance and usability. The application provides hedge fund managers an intuitive interface for viewing information about their trading activities in equities, bonds, swaps, and forex. 
   
 __Rosetta Marketing Group__  
 _iPad Consultant_  
 August 2010 - September 2010  
   
-Completed a series of iPad applications for a multinational pharmaceutical company under tight deadlines by executing a self-directed work plan.
+Completed a series of iPad applications, valued over one million dollars, for a multinational pharmaceutical company under tight deadlines by executing a self-directed work plan.
 
 The applications primarily enable pharmaceutical salesmen to download multimedia (PDF, HTML, video) promotional materials onto the iPad for offline presentation.  
 
-The largest technical challenge was to develop a custom PDF viewer, as the standard PDF viewer in iOS is rather poor. I'm quite proud of the result.  
+The largest technical challenge was to develop a custom PDF viewer, as the standard PDF viewer in iOS is rather poor. 
   
 __icihere.com__  
 _Lead Mobile Developer_  
 March 2009 - Present  
   
-Developed, deployed, and maintained location-aware __ici__ mobile application for Apple iPhone and Google Android. Resolved complex memory management issues. Assisted in design of REST API. Administered icihere.com production Linux servers running: MySQL, Apache, PHP. Oversaw company source control using Git.  
+Developed, deployed, and maintained location-aware __ici__ mobile application for Apple iPhone and Google Android. ici is a prominent arts and culture application which 
+
+Resolved complex memory management issues. Assisted in design of REST API. Administered icihere.com production Linux servers running: MySQL, Apache, PHP. Oversaw company source control using Git.  
   
 _Lead iPad Developer_  
 June 2010 - Present 
