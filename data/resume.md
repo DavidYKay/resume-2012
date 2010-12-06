@@ -56,24 +56,28 @@ Developed and maintained dynamic websites utilizing PHP, MySQL, and Javascript.
 * * * * * * * * * * * * * * * * * *
 # Professional Activities  
 
-[__New Jersey Mobile Meetup__](http://meetup.com/njmobile/)  
+###[New Jersey Mobile Meetup](http://meetup.com/njmobile/)  
 _May 2010 - Present_  
+
 Led the leading mobile technology group in New Jersey. This group consists of over one hundred and sixty entrepreneurs, technologists, and hobbyists who meet semimonthly to discuss mobile technology.  
   
 Developed curriculum and conducted __iPhone and Android programming seminars__ at __Princeton University__ and the __New Jersey Technology Centre__.
 
-__Startup Weekend NYC - Arts & Tech__  
+###Startup Weekend NYC - Arts & Tech
 _November 2010_  
+
 Led a seven-man team to finish in fourth place overall, second place people's choice. Our app, __Artmented__, is an augmented reality Android application for drawing and viewing virtual graffiti overlaid on actual locations.
 
-__TechCrunch Disrupt Hackathon, San Francisco__  
+###TechCrunch Disrupt Hackathon, San Francisco  
 _September 2010_  
+
 Led a two-man team in the 24-hour hackathon to finish in the top five of eighty-six, winning the "Creepiest Hack" award for __D8Coach__, an Android-based dating advice application.  
 
 [Personal postmortem](http://blog.davidykay.com/d8coach-hackaton-wrap-up).  [Press Coverage](http://techcrunch.com/2010/09/26/techcrunch-disrupt-hackathon-winner/).  
 
-__Startup Weekend NYC__  
+###Startup Weekend NYC  
 _September 2010_  
+
 As the back-end developer for team __PlanWhere__, launched a Google App Engine-based travel / restaurant application harnessing the Facebook API, Yelp API, and page-scraping.
 
 * * * * * * * * * * * * * * * * * *
