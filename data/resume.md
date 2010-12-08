@@ -19,21 +19,21 @@ __Summary:__  Award-winning mobile application developer possessing extensive ex
 # Work Experience
 
 ## Deutsche Bank 
-###iPad Consultant
+###Senior Developer, iPhone and iPad
 _October 2010 - Present_  
 
+Designed and developed the __Global Prime__ application for iPhone and iPad for the Deutsche Bank prime brokerage. Delivered application that provides more than one hundred hedge fund managers an intuitive interface for viewing information about their trading activities in equities, bonds, swaps, and Forex. 
 
-Working with the Deutsche Bank prime brokerage arm, designed and developed the __Global Prime__ application for iPhone and iPad, carefully balancing financial data security constraints against performance and usability. The application provides hedge fund managers an intuitive interface for viewing information about their trading activities in equities, bonds, swaps, and forex. 
+Addressed extremely sensitive financial data security requirements while delivering a highly responsive, performant application.
 
 ## Rosetta Marketing Group 
-### iPad Consultant 
+### Senior UI Developer, iPad
 _August 2010 - September 2010_  
   
-Completed a series of iPad applications, valued over one million dollars, for a multinational pharmaceutical company under tight deadlines by executing a self-directed work plan.
+Completed a series of iPad applications, valued over one million dollars, for a multinational pharmaceutical company under tight deadlines by executing a self-directed work plan. These applications enable pharmaceutical salesmen to download multimedia (PDF, HTML, video) promotional materials onto the iPad for offline presentation.  
 
-The applications primarily enable pharmaceutical salesmen to download multimedia (PDF, HTML, video) promotional materials onto the iPad for offline presentation.  
+Overcame major technical challenges to develop an elegant, custom PDF viewer, complete with bookmarking and thumbnail-driven navigation features. 
 
-The largest technical challenge was to develop a custom PDF viewer, as the standard PDF viewer in iOS did not suit the client's needs.  
 ## icihere.com 
 ###Lead Mobile Developer
 _March 2009 - Present_  
@@ -41,9 +41,6 @@ _March 2009 - Present_
 Developed, deployed, and maintained location-aware __ici__ mobile application for Apple iPhone and Google Android. ici is a prominent arts and culture application which enables organizations to create geo-aware content.
 
 Resolved complex memory management issues. Assisted in design of REST API. Administered icihere.com production Linux servers running: MySQL, Apache, PHP. Oversaw company source control using Git.  
-  
-###Lead iPad Developer
-_June 2010 - Present_ 
   
 Developed iPad version of ici. Currently developing ici Magazine for the iPad. ici Magazine is a platform for magazine publishers to easily deliver their content as an iPad-optimized magazine.
   
@@ -66,19 +63,19 @@ Developed curriculum and conducted __iPhone and Android programming seminars__ a
 ###Startup Weekend NYC - Arts & Tech
 _November 2010_  
 
-Led a seven-man team to finish in fourth place overall, second place people's choice. Our app, __Artmented__, is an augmented reality Android application for drawing and viewing virtual graffiti overlaid on actual locations.
+Won second place People's Choice and fourth place overall for __Artmented__. Artmented is an augmented reality Android application for drawing and viewing virtual graffiti overlaid on actual locations. Directed a seven-man team consisting of developers, designers, and marketing specialists over a weekend.
 
 ###TechCrunch Disrupt Hackathon, San Francisco  
 _September 2010_  
 
-Led a two-man team in the 24-hour hackathon to finish in the top five of eighty-six, winning the "Creepiest Hack" award for __D8Coach__, an Android-based dating advice application.  
+Won the "Creepiest Hack" award for __D8Coach__ ("date coach"), finishing in the top five from a field of eighty-six teams. D8Coach is an Android-based real-time dating advice application that utilizes the collective experience of users to improve dating techniques. 
 
 [Personal postmortem](http://blog.davidykay.com/d8coach-hackaton-wrap-up).  [Press Coverage](http://techcrunch.com/2010/09/26/techcrunch-disrupt-hackathon-winner/).  
 
 ###Startup Weekend NYC  
 _September 2010_  
 
-As the back-end developer for team __PlanWhere__, launched a Google App Engine-based travel / restaurant application harnessing the Facebook API, Yelp API, and page-scraping.
+Developed back-end code for team __PlanWhere__, employing Google App Engine, Facebook API, Yelp API, and page-scraping tools to help users plan travel / restaurant outings.
 
 * * * * * * * * * * * * * * * * * *
 # Other Skills
