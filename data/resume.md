@@ -18,9 +18,15 @@ __Summary:__  Award-winning mobile application developer possessing extensive ex
 * * * * * * * * * * * * * * * * * *
 # Work Experience
 
+## Stealth-Mode Startup
+###iOS Consultant
+_January 2011 - Present_  
+
+Working with a team of telecommunications experts under the leadership of a former intelligence operative, designed and developed an iOS application for members of the "three letter agencies."
+
 ## Deutsche Bank 
 ###Senior Developer, iPhone and iPad
-_October 2010 - Present_  
+_October 2010 - December 2010_  
 
 Designed and developed the __Global Prime__ application for iPhone and iPad for the Deutsche Bank prime brokerage. Delivered application that provides more than one hundred hedge fund managers an intuitive interface for viewing information about their trading activities in equities, bonds, swaps, and Forex. 
 
@@ -56,7 +62,7 @@ Developed and maintained dynamic websites utilizing PHP, MySQL, and Javascript.
 ###[New Jersey Mobile Meetup](http://meetup.com/njmobile/)  
 _May 2010 - Present_  
 
-Led the leading mobile technology group in New Jersey. This group consists of over one hundred and sixty entrepreneurs, technologists, and hobbyists who meet semimonthly to discuss mobile technology.  
+Led the leading mobile technology group in New Jersey. This group consists of approximately two hundred entrepreneurs, technologists, and hobbyists who meet semimonthly to discuss mobile technology.  
   
 Developed curriculum and conducted __iPhone and Android programming seminars__ at __Princeton University__ and the __New Jersey Technology Centre__.
 
