@@ -18,7 +18,7 @@ __Summary:__  Award-winning mobile application developer possessing extensive ex
 * * * * * * * * * * * * * * * * * *
 # Work Experience
 
-## Stealth-Mode Startup
+## [Stealth-Mode Startup]
 ###iOS Consultant
 _January 2011 - Present_  
 
