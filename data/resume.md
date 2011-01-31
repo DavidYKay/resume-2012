@@ -22,7 +22,7 @@ __Summary:__  Award-winning mobile application developer possessing extensive ex
 ###iOS Consultant
 _January 2011 - Present_  
 
-Working with a team of telecommunications experts under the leadership of a former intelligence operative, designed and developed an iOS application for members of the "three letter agencies."
+Working with a team of telecommunications experts under the leadership of a former intelligence operative, designed and developed an iOS application intended for use by the the "three letter agencies."
 
 ## Deutsche Bank 
 ###Senior Developer, iPhone and iPad
