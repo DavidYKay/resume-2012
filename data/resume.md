@@ -18,9 +18,21 @@ __Summary:__  Award-winning mobile application developer possessing extensive ex
 * * * * * * * * * * * * * * * * * *
 # Work Experience
 
+## Gargoyle Software
+###Consultant
+_May 2011 - Present  
+
+Provided Android and iOS application design, development, and consultation services to companies in the New York area. 
+
+## Google
+###Developer Programs Engineer
+_March 2011 - May 2011  
+
+Developed client libraries for the Doubleclick for Publishers API and supported external users from large accounts such as Univision.
+
 ## [Stealth-Mode Startup]
 ###iOS Consultant
-_January 2011 - Present_  
+_January 2011 - March 2011  
 
 Working with a team of telecommunications experts under the leadership of a former intelligence operative, designed and developed an iOS application intended for use by law enforcement and defense agencies.
 
@@ -42,25 +54,38 @@ Overcame major technical challenges to develop an elegant, custom PDF viewer, co
 
 ## icihere.com 
 ###Lead Mobile Developer
-_March 2009 - Present_  
+_March 2009 - March 2011_  
 
 Developed, deployed, and maintained location-aware __ici__ mobile application for Apple iPhone and Google Android. ici is a prominent arts and culture application which enables organizations to create geo-aware content.
 
 Resolved complex memory management issues. Assisted in design of REST API. Administered icihere.com production Linux servers running: MySQL, Apache, PHP. Oversaw company source control using Git.  
   
-Developed iPad version of ici. Currently developing ici Magazine for the iPad. ici Magazine is a platform for magazine publishers to easily deliver their content as an iPad-optimized magazine.
+Developed iPad version of ici. Developed ici Magazine for the iPad. ici Magazine is a platform for magazine publishers to easily deliver their content as an iPad-optimized magazine.
   
-## Inquisitive Research 
-###Web Developer
-_November 2008 - February 2009_  
-  
-Developed and maintained dynamic websites utilizing PHP, MySQL, and Javascript.
-
 * * * * * * * * * * * * * * * * * *
 # Professional Activities  
 
+###Lean Startup Machine NYC  
+_April 2011_  
+
+Led team __Dating CRM__ to a third place finish with an Android application that helps active daters to track the romantic partners in their lives. Actively interviewed over 30 users and "parallel daters" and put their feedback into the product.
+
+http://www.datingcrm.com
+
+###Startup Bus, South by Southwest  
+_March 2011_  
+
+Designed and developed __Lemonade Stand__ for Android while on a moving bus from New York City to Austin, TX. My efforts helped push the team to reach the semifinals, finishing in the top 12 of 38 teams.
+
+Lemonade Stand was later celebrated as an impressive technical achievement at New York Tech Meetup's [Hack of the Month](http://youtu.be/DC-AiiclmV0) segment.
+
+###eBay Hackathon, South by Southwest  
+_March 2011_  
+
+Won 3rd place and $500 for enabling Lemonade Stand to cross-post listings to eBay.
+
 ###[New Jersey Mobile Meetup](http://meetup.com/njmobile/)  
-_May 2010 - Present_  
+_May 2010 - May 2011_  
 
 Led the leading mobile technology group in New Jersey. This group consists of approximately two hundred entrepreneurs, technologists, and hobbyists who meet semimonthly to discuss mobile technology.  
 
