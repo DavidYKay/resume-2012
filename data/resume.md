@@ -20,19 +20,19 @@ __Summary:__  Award-winning mobile application developer possessing extensive ex
 
 ## Gargoyle Software
 ###Consultant
-_May 2011 - Present  
+_May 2011 - Present_  
 
 Provided Android and iOS application design, development, and consultation services to companies in the New York area. 
 
 ## Google
 ###Developer Programs Engineer
-_March 2011 - May 2011  
+_March 2011 - May 2011_  
 
 Developed client libraries for the Doubleclick for Publishers API and supported external users from large accounts such as Univision.
 
 ## [Stealth-Mode Startup]
 ###iOS Consultant
-_January 2011 - March 2011  
+_January 2011 - March 2011_  
 
 Working with a team of telecommunications experts under the leadership of a former intelligence operative, designed and developed an iOS application intended for use by law enforcement and defense agencies.
 
