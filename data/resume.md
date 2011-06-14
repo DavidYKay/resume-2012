@@ -68,9 +68,7 @@ Developed iPad version of ici. Developed ici Magazine for the iPad. ici Magazine
 ###Lean Startup Machine NYC  
 _April 2011_  
 
-Led team __Dating CRM__ to a third place finish with an Android application that helps active daters to track the romantic partners in their lives. Actively interviewed over 30 users and "parallel daters" and put their feedback into the product.
-
-http://www.datingcrm.com
+Led team [__Dating CRM__](http://www.datingcrm.com) to a third place finish with an Android application that helps active daters to track the romantic partners in their lives. Actively interviewed over 30 users and "parallel daters" and put their feedback into the product.
 
 ###Startup Bus, South by Southwest  
 _March 2011_  
@@ -82,7 +80,7 @@ Lemonade Stand was later celebrated as an impressive technical achievement at Ne
 ###eBay Hackathon, South by Southwest  
 _March 2011_  
 
-Won 3rd place and $500 for enabling Lemonade Stand to cross-post listings to eBay.
+Won 3rd place and $500 for enabling __Lemonade Stand__ to cross-post listings to eBay.
 
 ###[New Jersey Mobile Meetup](http://meetup.com/njmobile/)  
 _May 2010 - May 2011_  
