@@ -4,3 +4,5 @@ tmp/
 bin/*
 pkg
 *.gemspec
+.DS_Store
+

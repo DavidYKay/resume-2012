@@ -1,116 +1,91 @@
-require 'rake/testtask'
-require 'fileutils'
+# The Rakefile does all of the real work.
 
-task :default => ['test']
+task :default => [:github, :heroku]
 
-GEM_NAME = "danmayer-resume"
-
-desc "run sintra server locally"
-task :run do
-  exec "ruby resume.rb"
+desc "Run your resume locally."
+task :local do
+   exec('./resume.rb')
 end
 
-begin
-  require 'jeweler'
-  Jeweler::Tasks.new do |gemspec|
-    gemspec.name = GEM_NAME
-    gemspec.summary = "Resume gem"
-    gemspec.description = "A gem for Dan Mayer's resume"
-    gemspec.email = "dan@mayerdan.com"
-    gemspec.homepage = "http://github.com/danmayer/Resume"
-    gemspec.authors = ["Dan Mayer"]
-    gemspec.executables = [GEM_NAME]
-    gemspec.add_development_dependency "jeweler"
-    gemspec.add_dependency "main"
-    gemspec.add_dependency "maruku"
-    gemspec.add_dependency "sinatra", '~> 1.0'
-    gemspec.add_dependency "erubis"
-    gemspec.add_dependency 'less'
-    gemspec.add_dependency 'launchy'
-    gemspec.add_dependency 'rdiscount'
-  end
-  Jeweler::GemcutterTasks.new
-rescue LoadError
-  puts "Jeweler not available. Install it with: gem install jeweler"
+# Based off of http://railspikes.com/2010/2/13/rake-task-for-deploying-to-heroku
+desc "Deploy to Heroku."
+task :heroku do
+   [ 'heroku', 'heroku/command', 'git' ].each {|gem|
+      begin
+         require gem
+      rescue LoadError
+         puts "The gem #{gem} is not installed.\n"
+         exit
+      end
+   }
+
+   puts 'Deploying to Heroku. If you haven\'t run heroku create before, this will fail.'
+
+   # Get users credentials
+   user, pass = File.read(File.expand_path("~/.heroku/credentials")).split("\n")
+   heroku = Heroku::Client.new(user, pass)
+
+   cmd = Heroku::Command::BaseWithApp.new([])
+   remotes = cmd.git_remotes '.'
+   remote, app = remotes.detect {|key, value| value == (ENV['APP'] || cmd.app)}
+
+   if remote.nil?
+      raise "Could not find a git remote for the '#{ENV['APP']}' app"
+   end
+
+   g = Git.open('.')
+   g.push(g.remote(remote))
+
+   heroku.rake(app, "db:migrate")
+   heroku.restart(app)
+
+   puts '--> Heroku Push successful.'
 end
 
-task :build => [:generate_exe]
+# TODO: Make this dynamically figure out all of the files needed from Sinatra.
+desc "Deploy to remote defined in config.yaml"
+task :github do
+   require File.expand_path('../resume',__FILE__)
+   require 'rubygems'
 
-desc "generate the gem executable"
-task :generate_exe do
-  puts "making bin folder if it doesn't exist"
-  bin_folder = File.join(File.dirname(__FILE__), 'bin')
-  FileUtils.mkdir_p(bin_folder) unless File.exists?(bin_folder)
-  puts "copying executable from template"
-  `cp lib/resume_exe bin/#{GEM_NAME}`
-  puts "giving new file chmod +x"
-  `chmod o+x bin/#{GEM_NAME}`
-end
+   # Nice Error checking for gems.
+   [ 'git', 'rack/test', 'logger' ].each {|gem|
+      begin
+         require gem
+      rescue LoadError
+         puts "The gem #{gem} is not installed.\n"
+         exit
+      end
+   }
 
-desc "run all tests"
-task :test do
-  Rake::Task['test:rack'].invoke
-  Rake::Task['test:unit'].invoke
-end
+   remote = YAML.load_file('config.yaml')['github']['remote']
 
-namespace :test do
-  desc "run rack tests"
-  Rake::TestTask.new(:rack) do |t|
-    t.libs << "test"
-    t.pattern = "test/rack/**/*_test.rb"
-    t.verbose = true
-  end
+   browser = Rack::Test::Session.new(Rack::MockSession.new(Sinatra::Application))
 
-  desc "run unit tests"
-  Rake::TestTask.new(:unit) do |t|
-    t.libs << "test"
-    t.pattern = "test/unit/**/*_test.rb"
-    t.verbose = true
-  end
-end
+   files = [
+      'index.html',
+      'resume.txt',
+   ]
 
-desc "render github index page, which can be displayed at user.github.com"
-task :render_for_github do	
-    require File.join(File.dirname(__FILE__), 'lib', 'resume_gem')
-    resume = Resume.new('resume.yml')
-    resume.write_html_and_css_to_disk('./')
-end
+   files = files + Dir.entries("public").keep_if {|file| File.file? "public/#{file}"}
 
-namespace :heroku do
+   root = "/tmp/checkout-#{Time.now.to_i}"
+   g = Git.clone(remote, root, :log => Logger.new(STDOUT))
 
-  desc "create a heroku project for your resume"
-  task :create do
-    unless ENV.include?('name')	
-      raise "usage: rake heroku:create name=PROJECT_NAME # example danmayer-resume\n" 
-    end
-    project_name = ENV['name']
-    puts "creating heroku project #{project_name}"
-    puts `heroku create #{project_name}`
-  end
+   # Make sure this actually switches branches.
+   g.checkout(g.branch('gh-pages'))
 
-end
+   files.each {|file|
+      browser.get file
+      content = browser.last_response.body
+      File.open("#{root}/#{file}", 'w') {|f| f.write(content) }
+      g.add(File.basename(file))
+   }
 
-namespace :deploy do
-  desc "Deploy to Heroku."
-  task :heroku do
-    `git push heroku master`
-  end
+   g.commit('Regenerating Github Pages.')
 
-  desc "Deploy to Github pages."
-  task :github => [:render_for_github] do
-    # this assumes you have made a remote called github
-    # `git remote add github git@github.com:username/username.github.com.git`
-    # this should push your resume to http://username.github.com
-    `git push github master`
-  end
-end
+   # PUSH!
+   g.push(g.remote('origin'), g.branch('gh-pages'))
 
-namespace :github do
-  desc "render github index page, which can be displayed at user.github.com"
-  task :render_pages do	
-    require File.join(File.dirname(__FILE__), 'lib', 'resume_gem')
-    resume = Resume.new('resume.yml')
-    puts "writing resume github index files to disk"
-    resume.write_html_and_css_to_disk('./')
-  end
+   puts '--> GitHub Pages Commit and Push successful.'
 end

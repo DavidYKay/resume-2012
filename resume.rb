@@ -1,53 +1,51 @@
 #!/usr/bin/env ruby
-#!/usr/bin/ruby1.8
-#!/usr/bin/ruby
-# A Sinatra app for displaying one's resume in multiple formats
+# An app for displaying one's resume
+# @author Nat Welch - https://github.com/icco/Resume
 
-require 'rubygems'
-require 'sinatra'
-require 'less'
-require 'rdiscount'
-require 'maruku'
+begin
+   require "rubygems"
+rescue LoadError
+   puts "Please install Ruby Gems to continue."
+   exit
+end
 
+# Check all of the gems we need are there.
+[ "sinatra", "less", "github/markup", "yaml" ].each {|gem|
+   begin
+      require gem
+   rescue LoadError
+      puts "The gem #{gem} is not installed.\n"
+      exit
+   end
+}
+
+# Include our configurations from config.yaml
+configure do
+   set :config, YAML.load_file('config.yaml')['user_config']
+end
+
+# Render the main page.
+get '/index.html' do
+   rfile = settings.config['file']
+   name  = settings.config['name']
+   title = "#{name}'s Resume"
+   resume = GitHub::Markup.render(rfile, File.read(rfile))
+   erb :index, :locals => {
+      :title => title,
+      :resume => resume,
+      :author => name,
+      :key => settings.config['gkey'],
+      :filename => rfile
+   }
+end
+
+# We do this for our static site rendering.
 get '/' do
-   title = resume_data.split("\n").first
-   #oops 1.8.7 only?
-    #resume_data.lines.first.strip
-   resume = RDiscount.new(resume_data, :smart).to_html
-   erubis :index, :locals => { :title => title, :resume => resume, :formats => true }
+   redirect '/index.html'
 end
 
-get '/style.css' do
-   content_type 'text/css', :charset => 'utf-8'
-   less :style
-end
-
-get '/latex' do
-  content_type 'application/x-latex'
-  doc = Maruku.new(resume_data)
-  doc.to_latex_document
-end
-
-get '/markdown' do
-  content_type 'application/markdown'
-  resume_data
-end
-
-# note this only works if pdflatex is installed which is part of most LaTeX packages, but doesn't work on Heroku
-# TODO if this ever works on heroku clean it up and add caching
-get '/pdf' do
-  content_type 'application/x-latex'
-  pdf_file = 'tmp/resume.pdf'
-  latex_file = 'tmp/resume.tex'
-
-  return File.read(pdf_file) if File.exists?(pdf_file)
-  doc = Maruku.new(resume_data)
-  tex = doc.to_latex_document
-  File.open(latex_file, 'w') {|f| f.write(tex) }
-  `cd tmp && pdflatex resume.tex -interaction=nonstopmode` #'
-  File.read(pdf_file)
-end
-
-def resume_data
-  File.read("data/resume.md")
+# For the plain text version of our resumes
+get '/resume.txt' do
+   content_type 'text/plain', :charset => 'utf-8'
+   File.read(settings.config['file'])
 end
