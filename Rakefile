@@ -73,7 +73,8 @@ task :github do
    g = Git.clone(remote, root, :log => Logger.new(STDOUT))
 
    # Make sure this actually switches branches.
-   g.checkout(g.branch('gh-pages'))
+   #g.checkout(g.branch('gh-pages'))
+   g.checkout(g.branch('master'))
 
    files.each {|file|
       browser.get file
@@ -85,7 +86,8 @@ task :github do
    g.commit('Regenerating Github Pages.')
 
    # PUSH!
-   g.push(g.remote('origin'), g.branch('gh-pages'))
+   #g.push(g.remote('origin'), g.branch('gh-pages'))
+   g.push(g.remote('origin'), g.branch('master'))
 
    puts '--> GitHub Pages Commit and Push successful.'
 end

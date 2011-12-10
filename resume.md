@@ -24,7 +24,7 @@ West Windsor, NJ 08550
 
 ## iOS: Medical Device Design Collaboration Tool
 ###[Enhatch Orthopedics](http://enhatch.com)
-_Nov 2011 - Present  
+_Nov 2011 - Present_  
 
 Designed and developed an iPad app to aid biomedical engineers and orthopedic surgeons collaborate in the design of medical implants. 
 
@@ -34,7 +34,7 @@ The app enables threaded discussion in a three-pane Twitter-style UI and also al
 
 ## iOS: Social Video Player
 ###[Video Startup]
-_Aug 2011 - Oct 2011  
+_Aug 2011 - Oct 2011_  
 
 Developed a highly-polished, highly-rated video application that integrates with a social video sharing platform. 
 
@@ -48,19 +48,19 @@ Co-founded __authy__ as CTO, building an innovative two-factor authentication ap
 
 ## Web: oAuth Developer Sandbox
 ###Developer Programs Engineer, [Google Inc.](http://google.com)
-_March 2011 - May 2011  
+_March 2011 - May 2011_  
 
 Aided in the development of the [oAuth 2.0 playground](https://code.google.com/oauthplayground/). Resolved upgrade & deployment issues in the [oAuth 1.0 playground](http://googlecodesamples.com/oauth_playground/).
 
 ## Web: Doubleclick for Publishers API Client Libraries
 ###Developer Programs Engineer, [Google Inc.](http://google.com)
-_March 2011 - May 2011  
+_March 2011 - May 2011_  
 
 Developed [client](http://code.google.com/p/google-api-dfp-python/) [libraries](http://code.google.com/p/google-api-dfp-php/) for the [Doubleclick for Publishers API](http://code.google.com/apis/dfp/) and supported external users from large accounts such as Univision. Also produced PR materials such as [blog posts](http://doubleclickpublishersapi.blogspot.com/2011/05/v201104-simplified-apis-for.html).
 
 ## iPhone: Secure Communcations App
 ### [Stealth-Mode Startup]
-_January 2011 - March 2011  
+_January 2011 - March 2011_  
 
 Designed and developed an iOS application intended for use by law enforcement and defense agencies, working with a team of telecommunications experts and under the leadership of a former intelligence operative.
 
