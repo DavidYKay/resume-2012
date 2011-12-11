@@ -163,7 +163,7 @@ Co-organized an effort to bring Rutgers University's engineering students in clo
 ##Reinventing Local Hackathon  
 _November 2011_  
 
-[__Midpoint__](http://youtu.be/PLxAxMXWt6o) lets you meet in the middle. It suggests lunch deals between you and the other party by crawling your Android calendar for events, finding your location via GPS, their location via their address, and finally querying the HyperPublic API for venue and deal/coupon listings. Once a venue is booked, both parties are notified and the calendar event is updated.
+[__Midpoint__](http://midpointapp.com) lets you meet in the middle. It suggests lunch deals between you and the other party by crawling your Android calendar for events, finding your location via GPS, their location via their address, and finally querying the HyperPublic API for venue and deal/coupon listings. Once a venue is booked, both parties are notified and the calendar event is updated.
 
 
 ##Mini Ludum Dare #28  
