@@ -44,7 +44,7 @@ Please email for more details.
 ### [authy](http://authy.com)
 _May 2011 - June 2011_  
 
-Co-founded __authy__ as CTO, building an innovative two-factor authentication application, spanning Android, Mac, and Linux platforms and employing Bluetooth connectivity for hands-free authentication. 
+Co-founded __authy__, a Y-Combinator company, as CTO, building an innovative two-factor authentication application, spanning Android, Mac, and Linux platforms and employing Bluetooth connectivity for hands-free authentication. 
 
 ## Web: oAuth Developer Sandbox
 ###Developer Programs Engineer, [Google Inc.](http://google.com)
