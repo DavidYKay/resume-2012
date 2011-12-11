@@ -189,7 +189,7 @@ Led team [__Dating CRM__](http://www.datingcrm.com) to a __third place__ finish 
 ##Startup Bus, South by Southwest  
 _March 2011_  
 
-Developed [__Lemonade Stand__](http://lmnd.st) for Android while on a moving bus from New York City to Austin, TX. Lemonade Stand is a mobile-optimized marketplace, akin to eBay or Craigslist. My efforts helped push the team to reach the semifinals, finishing in the __top 12__ of 38 teams.
+Developed [__Lemonade Stand__](http://kennedysgarage.com/project/lemonade-stand.html) for Android while on a moving bus from New York City to Austin, TX. Lemonade Stand is a mobile-optimized marketplace, akin to eBay or Craigslist. My efforts helped push the team to reach the semifinals, finishing in the __top 12__ of 38 teams.
 
 Lemonade Stand was later celebrated as an outstanding technical achievement at New York Tech Meetup's [Hack of the Month](http://youtu.be/DC-AiiclmV0) segment.
 
