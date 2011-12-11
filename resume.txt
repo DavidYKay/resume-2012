@@ -46,6 +46,8 @@ _May 2011 - June 2011_
 
 Co-founded __authy__, a Y-Combinator company, as CTO, building an innovative two-factor authentication application, spanning Android, Mac, and Linux platforms and employing Bluetooth connectivity for hands-free authentication. 
 
+Delivered a [pitch](http://youtu.be/6232zcdNF74) that won 2nd place overall and 2nd place audience choice.
+
 ## Web: oAuth Developer Sandbox
 ###Developer Programs Engineer, [Google Inc.](http://google.com)
 _March 2011 - May 2011_  
