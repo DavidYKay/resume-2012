@@ -28,7 +28,7 @@ _Nov 2011 - Present_
 
 Designed and developed an iPad app to aid biomedical engineers and orthopedic surgeons collaborate in the design of medical implants. 
 
-Single-handedly delivered a prototype in time for a Y-Combinator interview under an extremely tight deadline. 
+Single-handedly delivered a prototype under an extremely tight deadline, exceeding client expectations and making them the talk of mHealth 2011 in DC. 
 
 The app enables threaded discussion in a three-pane Twitter-style UI and also allows viewings of multimedia resources such as PDF, Video, and 3D Models.
 
