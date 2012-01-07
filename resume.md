@@ -25,7 +25,7 @@ West Windsor, NJ 08550
 # Work Experience
 
 ## iOS: Medical Device Design Collaboration Tool
-###[Enhatch Orthopedics](http://enhatch.com)
+###[EnHatch](http://enhatch.com)
 _Nov 2011 - Present_  
 
 Designed and developed an iPad app to aid biomedical engineers and orthopedic surgeons collaborate in the design of medical implants. 
