@@ -28,19 +28,19 @@ West Windsor, NJ 08550
 ###[EnHatch](http://enhatch.com)
 _Nov 2011 - Present_  
 
-Designed and developed an iPad app to aid biomedical engineers and orthopedic surgeons collaborate in the design of medical implants. 
+Designed and developed an iPad app to aid biomedical engineers and orthopedic surgeons collaborate in the 3D design of medical implants. 
 
 Single-handedly delivered a prototype under an extremely tight deadline, exceeding client expectations and making them the talk of mHealth 2011 in DC. 
 
-The app enables threaded discussion in a three-pane Twitter-style UI and also allows viewings of multimedia resources such as PDF, Video, and 3D Models.
+The app primarily enables viewing of 3D CAD models. It also supports threaded discussion in a three-pane Twitter-style UI as well as viewing multimedia resources such as PDF, Video.
 
 ## iOS: Social Video Player
-###[Video Startup]
+###[Venture-backed social video startup]
 _Aug 2011 - Oct 2011_  
 
-Developed a highly-polished, highly-rated video application that integrates with a social video sharing platform. 
+Developed and launched a 4.5-star-rated video application that integrates with a social video sharing platform. 
 
-Please email for more details.
+Company name withheld due to confidentially restrictions. 
 
 ## Android, Mac, Linux: Two-Factor Authentication 
 ### [authy](http://authy.com)
@@ -51,16 +51,16 @@ Co-founded __authy__, a Y-Combinator company, as CTO, building an innovative two
 Delivered a [pitch](http://youtu.be/6232zcdNF74) that won 2nd place overall and 2nd place audience choice.
 
 ## Web: oAuth Developer Sandbox
-###Developer Programs Engineer, [Google Inc.](http://google.com)
+### [Google Inc](http://google.com), Developer Programs Engineer
 _March 2011 - May 2011_  
 
-Aided in the development of the [oAuth 2.0 playground](https://code.google.com/oauthplayground/). Resolved upgrade & deployment issues in the [oAuth 1.0 playground](http://googlecodesamples.com/oauth_playground/).
+Programmed and tested functionality in the [oAuth 2.0 playground](https://code.google.com/oauthplayground/). Resolved upgrade & deployment issues in the [oAuth 1.0 playground](http://googlecodesamples.com/oauth_playground/).
 
 ## Web: Doubleclick for Publishers API Client Libraries
-###Developer Programs Engineer, [Google Inc.](http://google.com)
+### [Google Inc](http://google.com), Developer Programs Engineer
 _March 2011 - May 2011_  
 
-Developed [client](http://code.google.com/p/google-api-dfp-python/) [libraries](http://code.google.com/p/google-api-dfp-php/) for the [Doubleclick for Publishers API](http://code.google.com/apis/dfp/) and supported external users from large accounts such as Univision. Also produced PR materials such as [blog posts](http://doubleclickpublishersapi.blogspot.com/2011/05/v201104-simplified-apis-for.html).
+Released and maintained [client](http://code.google.com/p/google-api-dfp-python/) [libraries](http://code.google.com/p/google-api-dfp-php/) for the [Doubleclick for Publishers API](http://code.google.com/apis/dfp/) and supported external users from large accounts such as Univision. Also produced PR materials such as [blog posts](http://doubleclickpublishersapi.blogspot.com/2011/05/v201104-simplified-apis-for.html).
 
 ## iPhone: Secure Communcations App
 ### [Stealth-Mode Startup]
@@ -120,7 +120,7 @@ Co-taught a three-part, hands-on introduction to Android development.
 ### [Thinking Creatively Conference](http://www.thinkingcreatively.org/)
 _May 2011_  
 
-Gave a comprehensive overview of the mobile app ecosystem to a crowd of over two hundred attendees.
+Gave a comprehensive [overview](http://dl.dropbox.com/u/11816173/Thinking%20Creatively%20-%20April%202011.key) of the mobile app ecosystem to a crowd of over two hundred attendees.
 
 ## "State of the NYC Tech Scene"
 ###[ecelerator](http://ecelerator.com)
@@ -134,6 +134,12 @@ _April 2011_
 
 Following our success on the Startup Bus, Lemonade Stand was celebrated as an oustanding technical achievement at New York Tech Meetup's [Hack of the Month](http://youtu.be/DC-AiiclmV0) segment.
 
+## Mobile Application Entrepreneurship Talk
+### Rutgers University
+_January 2011_  
+
+Addressed the Rutgers honors engineering students, encouraging them to hone their craft, dream big, and consider entrepreneurship.
+
 ## "Method Swizzling in Objective-C"
 ###[Braindump Meetup](http://www.meetup.com/braindump/)
 _January 2011_  
@@ -144,13 +150,13 @@ Gave a [presentation](https://docs.google.com/present/edit?id=0Ae9AW39A3d-nZDg3c
 ### [NJ Mobile Meetup](http://meetup.com/njmobile)
 _November 2010_  
 
-Taught an comprehensive overview on all topics relevant to iPhone development, including: Objective-C, XCode, Interface Builder, and Cocoa Touch. 
+Taught an comprehensive [overview](https://docs.google.com/present/edit?id=0AclBGqePjr3KZGR0dGRncWpfMjdoZnR6ZzlkZA) on all topics relevant to iPhone development, including: Objective-C, XCode, Interface Builder, and Cocoa Touch. 
 
 ## "Android Development Bootcamp"
 ### Princeton University
 _July 2010_  
 
-Taught an intensive workshop on basic Android development.
+Taught an intensive workshop on basic Android development. Slides [here](https://docs.google.com/present/edit?id=0AclBGqePjr3KZGR0dGRncWpfNmNuOTdwa2dq).
 
 # Professional Activities  
 
