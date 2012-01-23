@@ -4,9 +4,11 @@
 
 
 # Summary
-"...[best iOS developer around.](http://twitter.com/#!/ytsirklin/status/132246466440863744)" - _[Yan Tsirklin](http://www.linkedin.com/in/yantsirklin), Head of BD at Textbroker International_  
+"...best iOS developer around." - _[Yan Tsirklin](http://twitter.com/#!/ytsirklin/status/132246466440863744), Head of BD at Textbroker International_  
 
 "...definitely the most talented developer I've worked with." - _[Christopher Kennedy](http://kennedysgarage.com/), Lead UX Strategist at M. Shanken Communications_  
+
+"He's like a magician." - _[Peter Verrillo](http://www.linkedin.com/in/peterverrillo), Founder and CEO of EnHatch_
 
 
 # Contact
@@ -23,12 +25,12 @@ West Windsor, NJ 08550
 # Work Experience
 
 ## iOS: Medical Device Design Collaboration Tool
-###[Enhatch Orthopedics](http://enhatch.com)
+###[EnHatch](http://enhatch.com)
 _Nov 2011 - Present_  
 
 Designed and developed an iPad app to aid biomedical engineers and orthopedic surgeons collaborate in the design of medical implants. 
 
-Single-handedly delivered a prototype in time for a Y-Combinator interview under an extremely tight deadline. 
+Single-handedly delivered a prototype under an extremely tight deadline, exceeding client expectations and making them the talk of mHealth 2011 in DC. 
 
 The app enables threaded discussion in a three-pane Twitter-style UI and also allows viewings of multimedia resources such as PDF, Video, and 3D Models.
 
