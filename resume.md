@@ -24,19 +24,29 @@ West Windsor, NJ 08550
 
 # Work Experience
 
-## iOS: Medical Device Design Collaboration Tool
+## iOS: 3D Medical App
 ###[EnHatch](http://enhatch.com)
 _Nov 2011 - Present_  
 
-Designed and developed an iPad app to aid biomedical engineers and orthopedic surgeons collaborate in the 3D design of medical implants. 
+Lead the technical design and implementation of an iPad app for orthopedic device salesmen and surgeons. The app primarily serves as a 3D instruction manual, rendering models and animations using OpenGL. 
 
-Single-handedly delivered a prototype under an extremely tight deadline, exceeding client expectations and making them the talk of mHealth 2011 in DC. 
+EnHatch managed to sign the first customer for the iPad app within only three months and the app is now deployed to salesmen and surgeons in North America, Europe, and Asia.
 
-The app primarily enables viewing of 3D CAD models. It also supports threaded discussion in a three-pane Twitter-style UI as well as viewing multimedia resources such as PDF, Video.
+## iPhone: Sonar
+### [Sonar.me](http://www.sonar.me/)
+_December 2011 - Present_  
+
+Lead the implementation of new features including real-time XMPP-based chat, background location, and addressbook bulk-invite. Also spearheaded the effort to profile & optimize battery life, fixing several bugs.
+
+## Web: Neighborhood Watch
+###[CrimeFighter](http://www.crimefighterhq.com)
+_Mar 2012 - Present_  
+
+Designed, implemented, and managed one other developer through the launch of CrimeFighter, a web application for neighborhood watch groups to exchange training information and crime reports. CrimeFighter was developed in partnership with the New York Initiative and is currently in use on both coasts in cities including: New York, Seattle, San Francisco, Los Angeles, and Chesapeake.
 
 ## iOS: Social Video Player
 ###[Venture-backed social video startup]
-_Aug 2011 - Oct 2011_  
+_August 2011 - October 2011_  
 
 Developed and launched a 4.5-star-rated video application that integrates with a social video sharing platform. 
 
@@ -104,6 +114,12 @@ Developed ici Magazine for the iPad. ici Magazine is a platform for magazine pub
 
 # Speaking Engagements
 
+## EnHatch Pitch
+### [New Jersey Tech Meetup](http://nytm.org)
+_May 2012_  
+
+With Peter Verrillo, delivered a presentation of EnHatch's 3D Techniq that won the prestigious Audience Choice Award.
+
 ## [Startup Bus Accelerate](http://startupbus.com/events/nycaccelerate)
 ### [Startup Bus](http://startupbus.com/)
 _November 2011_  
@@ -169,6 +185,27 @@ Led the leading mobile technology group in New Jersey. This group consists of ap
 Co-organized an effort to bring Rutgers University's engineering students in closer contact with the tech industry.
   
 # Hackathons  
+
+##TechCrunch Disrupt NYC  
+_May 2012_  
+
+[__IKEA 3D__](http://vimeo.com/42573339) is an official and re-envisioned IKEA app for the iPhone. Featuring product reviews, barcode scanning, and 3D instruction manuals, IKEA would do well to adopt this app!
+
+##NASA Space Apps Challenge  
+_April 2012_  
+
+Lead the effort to develop [__CERES__](http://cerespricing.com/), an SMS & web-based app for rural farmers to share food pricing data.
+
+We won the NYC segment of the Space Apps challenge to advance to the global round, where we competed against the top 50 teams from around the world.
+
+Please see the [pitch video](http://youtu.be/L0zh2DSindo) for more information.
+
+##Coca-Cola & Spotify: Hacker Den  
+_April 2012_  
+
+I was invited to the exclusive and private "Hacker Den" event, held to celebrate the new partnership between Coca-Cola and Spotify, where I led a four-man team to win $5K and the distinction of "best presentation."
+
+See event [video](http://www.youtube.com/watch?v=viP-9KHv1fs) for more information.
 
 ##Reinventing Local Hackathon  
 _November 2011_  
