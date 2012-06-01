@@ -36,13 +36,17 @@ EnHatch managed to sign the first customer for the iPad app within only three mo
 ### [Sonar.me](http://www.sonar.me/)
 _December 2011 - Present_  
 
-Lead the implementation of new features including real-time XMPP-based chat, background location, and addressbook bulk-invite. Also spearheaded the effort to profile & optimize battery life, fixing several bugs.
+Lead the implementation of new features including real-time XMPP-based chat, background location, and addressbook bulk-invite. The addressbook integration invited over 14,000 new users within the first week.
+
+Also spearheaded the effort to profile & optimize battery life, fixing several power-consumption bugs.
 
 ## Web: Neighborhood Watch
 ###[CrimeFighter](http://www.crimefighterhq.com)
 _Mar 2012 - Present_  
 
-Designed, implemented, and managed one other developer through the launch of CrimeFighter, a web application for neighborhood watch groups to exchange training information and crime reports. CrimeFighter was developed in partnership with the New York Initiative and is currently in use on both coasts in cities including: New York, Seattle, San Francisco, Los Angeles, and Chesapeake.
+Designed, implemented, and managed one other developer through the launch of CrimeFighter, a web application for neighborhood watch groups to exchange training information and crime reports.  
+
+CrimeFighter was developed in partnership with the New York Initiative and is currently in use on both coasts in cities including: New York, Seattle, San Francisco, Los Angeles, and Chesapeake.
 
 ## iOS: Social Video Player
 ###[Venture-backed social video startup]
