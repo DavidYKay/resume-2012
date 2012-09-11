@@ -24,29 +24,36 @@ West Windsor, NJ 08550
 
 # Work Experience
 
-## iOS: 3D Medical App
-###[EnHatch](http://enhatch.com)
-_Nov 2011 - Present_  
-
-Lead the technical design and implementation of an iPad app for orthopedic device salesmen and surgeons. The app primarily serves as a 3D instruction manual, rendering models and animations using OpenGL. 
-
-EnHatch managed to sign the first customer for the iPad app within only three months and the app is now deployed to salesmen and surgeons in North America, Europe, and Asia.
-
-## iPhone: Sonar
-### [Sonar.me](http://www.sonar.me/)
-_December 2011 - Present_  
-
-Lead the implementation of new features including real-time XMPP-based chat, background location, and addressbook bulk-invite. The addressbook integration invited over 14,000 new users within the first week.
-
-Also spearheaded the effort to profile & optimize battery life, fixing several power-consumption bugs.
-
 ## Web: Neighborhood Watch
 ###[CrimeFighter](http://www.crimefighterhq.com)
-_Mar 2012 - Present_  
+_March 2012 - Present_  
 
 Designed, implemented, and managed one other developer through the launch of CrimeFighter, a web application for neighborhood watch groups to exchange training information and crime reports.  
 
 CrimeFighter was developed in partnership with the New York Initiative and is currently in use on both coasts in cities including: New York, Seattle, San Francisco, Los Angeles, and Chesapeake.
+
+
+## Android: Call-tracking CRM for Africa
+###[CarbonKeeper](http://carbonkeeper.com)
+_July 2012 - August 2012_  
+
+In Nairobi, Kenya, led the technical design and implementation of the Carbonkeeper Android app for rural energy salesmen in sub-saharan Africa. The app enables light-weight data entry as well as passive call & SMS logging, uploading all customer communications to a central CRM/support database.
+
+The app is currently in pilot with the largest cookstove importer in Kenya.
+
+## iOS: 3D Medical App
+###[EnHatch](http://enhatch.com)
+_November 2011 - July 2012_  
+
+Led the technical design and implementation of 3D Techniq, an iPad/iPhone app for medical device salesmen and surgeons. The app primarily serves as a 3D instruction manual, rendering models and animations using OpenGL. Other functions include "John Madden"-style drawing on the screen, real-time chat, video viewing, analytics, and full offline support. 
+
+Within only five months of launch, EnHatch signed DePuy Orthopedics (a Johnson and Jonhson company) as a customer for the app and the app is now deployed to salesmen and surgeons in North America, Europe, and Asia.
+
+## iPhone: Sonar
+### [Sonar.me](http://www.sonar.me/)
+_December 2011 - July 2012_  
+
+Led the implementation of new features including real-time XMPP-based chat, low-power background location, and addressbook bulk-invite. The addressbook integration invited over 14,000 new users within the first week.
 
 ## iOS: Social Video Player
 ###[Venture-backed social video startup]
@@ -190,6 +197,22 @@ Co-organized an effort to bring Rutgers University's engineering students in clo
   
 # Hackathons  
 
+##TechCrunch Disrupt SF  
+_September 2012_  
+
+[__QUADRO__](https://www.youtube.com/watch?v=hoSNLR2jv0k) is a personal drone, using the off-the-shelf AR Drone hardware and a custom software system that enables gamepad control, voice commands, and facial recognition.  
+
+Leading my partner over a 24-hour development effort, I used C, Python, the AR Drone SDK, SimpleCV, and the Julius voice recognition engine.
+
+##Battle of the Braces: Python vs Ruby  
+_September 2012_  
+
+[__McCoy__](https://www.youtube.com/watch?v=uC6h173sidA) is voice-controlled 3D viewer of medical imagery, for use in the operating room.  
+
+McCoy was built in 12 hours, solo, using Python, PLY (Python yacc and lex), the Julius voice recognition engine, and OpenGL.  
+
+A dubious honor: the judges decided that it was "too much code" for one developer to have written in 12 hours.
+
 ##TechCrunch Disrupt NYC  
 _May 2012_  
 
@@ -198,7 +221,7 @@ _May 2012_
 ##NASA Space Apps Challenge  
 _April 2012_  
 
-Lead the effort to develop [__CERES__](http://cerespricing.com/), an SMS & web-based app for rural farmers to share food pricing data.
+Led the effort to develop [__CERES__](http://cerespricing.com/), an SMS & web-based app for rural farmers to share food pricing data.
 
 We won the NYC segment of the Space Apps challenge to advance to the global round, where we competed against the top 50 teams from around the world.
 
