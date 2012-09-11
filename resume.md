@@ -25,7 +25,7 @@ West Windsor, NJ 08550
 # Work Experience
 
 ## iPhone: Mobile Banking  
-###[Refundo](http://refundo.com)  
+### [Refundo](http://refundo.com)  
 _August 2012 - Present_  
 
 Coming in mid-project, led development team of offshore developers to ship a prototype Refundo's iPhone app in time for TechCrunch Disrupt, with an expected release in October.
@@ -33,7 +33,7 @@ Coming in mid-project, led development team of offshore developers to ship a pro
 Refundo is a banking service for underbanked individuals, similar to Simple.com.
 
 ## Android: Call-tracking CRM for Africa  
-###[CarbonKeeper](http://carbonkeeper.com)  
+### [CarbonKeeper](http://carbonkeeper.com)  
 _July 2012 - August 2012_  
 
 In Nairobi, Kenya, led the technical design and implementation of the Carbonkeeper Android app for rural energy salesmen in sub-saharan Africa. The app enables light-weight data entry as well as passive call & SMS logging, uploading all customer communications to a central CRM/support database.
@@ -41,7 +41,7 @@ In Nairobi, Kenya, led the technical design and implementation of the Carbonkeep
 The app is currently in pilot with the largest cookstove importer in Kenya.
 
 ## Web: Neighborhood Watch  
-###[CrimeFighter](http://www.crimefighterhq.com)  
+### [CrimeFighter](http://www.crimefighterhq.com)  
 _March 2012 - Present_  
 
 Designed, implemented, and managed one other developer through the launch of CrimeFighter, a web application for neighborhood watch groups to exchange training information and crime reports.  
@@ -49,7 +49,7 @@ Designed, implemented, and managed one other developer through the launch of Cri
 CrimeFighter was developed in partnership with the New York Initiative and is currently in use on both coasts in cities including: New York, Seattle, San Francisco, Los Angeles, and Chesapeake.
 
 ## iOS: 3D Medical App  
-###[EnHatch](http://enhatch.com)  
+### [EnHatch](http://enhatch.com)  
 _November 2011 - July 2012_  
 
 Led the technical design and implementation of 3D Techniq, an iPad/iPhone app for medical device salesmen and surgeons. The app primarily serves as a 3D instruction manual, rendering models and animations using OpenGL. Other functions include "John Madden"-style drawing on the screen, real-time chat, video viewing, analytics, and full offline support. 
@@ -63,7 +63,7 @@ _December 2011 - July 2012_
 Led the implementation of new features including real-time XMPP-based chat, low-power background location, and addressbook bulk-invite. The addressbook integration invited over 14,000 new users within the first week.
 
 ## iOS: Social Video Player  
-###[Venture-backed social video startup]  
+### [Venture-backed social video startup]  
 _August 2011 - October 2011_  
 
 Developed and launched a 4.5-star-rated video application that integrates with a social video sharing platform. 
@@ -157,13 +157,13 @@ _May 2011_
 Gave a comprehensive [overview](http://dl.dropbox.com/u/11816173/Thinking%20Creatively%20-%20April%202011.key) of the mobile app ecosystem to a crowd of over two hundred attendees.
 
 ## "State of the NYC Tech Scene"
-###[ecelerator](http://ecelerator.com)
+### [ecelerator](http://ecelerator.com)
 _May 2011_  
 
 Gave a well-received [presentation](https://docs.google.com/present/edit?id=0Ae9AW39A3d-nZDg3cWs4OF80Z2Y5bjc0c2g&authkey=CMr1j_kO&hl=en_US&authkey=CMr1j_kO) on the recent emergence of the New York tech scene and the rise of the startup accelerators to top venture capitalists and technology leaders in New Jersey.
 
 ## Hack of the Month
-###[New York Tech Meetup](http://nytm.org)
+### [New York Tech Meetup](http://nytm.org)
 _April 2011_  
 
 Following our success on the Startup Bus, Lemonade Stand was celebrated as an oustanding technical achievement at New York Tech Meetup's [Hack of the Month](http://youtu.be/DC-AiiclmV0) segment.
@@ -175,7 +175,7 @@ _January 2011_
 Addressed the Rutgers honors engineering students, encouraging them to hone their craft, dream big, and consider entrepreneurship.
 
 ## "Method Swizzling in Objective-C"
-###[Braindump Meetup](http://www.meetup.com/braindump/)
+### [Braindump Meetup](http://www.meetup.com/braindump/)
 _January 2011_  
 
 Gave a [presentation](https://docs.google.com/present/edit?id=0Ae9AW39A3d-nZDg3cWs4OF8yazRienM4amg&hl=en_US) and a hands-on [tutorial](https://github.com/DavidYKay/demo-swizzling) of the arcane technique of method swizzling.
@@ -195,7 +195,7 @@ Taught an intensive workshop on basic Android development. Slides [here](https:/
 # Professional Activities  
 
 ## Co-founder
-###[New Jersey Mobile Meetup](http://meetup.com/njmobile/)  
+### [New Jersey Mobile Meetup](http://meetup.com/njmobile/)  
 _May 2010 - May 2011_  
 
 Led the leading mobile technology group in New Jersey. This group consists of approximately two hundred entrepreneurs, technologists, and hobbyists who meet semimonthly to discuss mobile technology.  
