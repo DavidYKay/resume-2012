@@ -79,7 +79,7 @@ Co-founded __authy__, a Y-Combinator company, as CTO, building an innovative two
 Delivered a [pitch](http://youtu.be/6232zcdNF74) that won 2nd place overall and 2nd place audience choice.
 
 ## Web: oAuth Developer Sandbox
-### [Google Inc](http://google.com), Developer Programs Engineer
+### [Google Inc](http://google.com), Developer Programs Engineer  
 _March 2011 - May 2011_  
 
 Programmed and tested functionality in the [oAuth 2.0 playground](https://code.google.com/oauthplayground/). Resolved upgrade & deployment issues in the [oAuth 1.0 playground](http://googlecodesamples.com/oauth_playground/).
@@ -113,7 +113,7 @@ Designed and developed the __Global Prime__ application for [iPhone](http://itun
 Addressed extremely sensitive financial data security requirements while delivering a highly responsive, performant application.
 
 ## iOS: Pharmaceutical Sales
-### [Otsuka America Pharmaceutical](http://www.otsuka-us.com/)
+### [Otsuka America Pharmaceutical](http://www.otsuka-us.com/)  
 _August 2010 - September 2010_  
   
 Developed a series of high-value iPad applications(over one million dollars), for a multinational pharmaceutical company under tight deadlines by executing a self-directed work plan. These applications enable pharmaceutical salesmen to download multimedia (PDF, HTML, video) promotional materials onto the iPad for offline presentation.  
@@ -133,61 +133,61 @@ Developed ici Magazine for the iPad. ici Magazine is a platform for magazine pub
 # Speaking Engagements
 
 ## EnHatch Pitch
-### [New Jersey Tech Meetup](http://nytm.org)
+### [New Jersey Tech Meetup](http://nytm.org)  
 _May 2012_  
 
 With Peter Verrillo, delivered a presentation of EnHatch's 3D Techniq that won the prestigious Audience Choice Award.
 
-## [Startup Bus Accelerate](http://startupbus.com/events/nycaccelerate)
-### [Startup Bus](http://startupbus.com/)
+## [Startup Bus Accelerate](http://startupbus.com/events/nycaccelerate)  
+### [Startup Bus](http://startupbus.com/)  
 _November 2011_  
 
 Led sessions on: legal, mobile apps, how to begin coding, pitching / demoing, 
 
-## "Intro to Android Development"
-### [General Assembly](http://generalassemb.ly/)
+## "Intro to Android Development"  
+### [General Assembly](http://generalassemb.ly/)  
 _September 2011_  
 
 Co-taught a three-part, hands-on introduction to Android development.
 
-## "Mommy, where do apps come from?"
-### [Thinking Creatively Conference](http://www.thinkingcreatively.org/)
+## "Mommy, where do apps come from?"  
+### [Thinking Creatively Conference](http://www.thinkingcreatively.org/)  
 _May 2011_  
 
 Gave a comprehensive [overview](http://dl.dropbox.com/u/11816173/Thinking%20Creatively%20-%20April%202011.key) of the mobile app ecosystem to a crowd of over two hundred attendees.
 
-## "State of the NYC Tech Scene"
-### [ecelerator](http://ecelerator.com)
+## "State of the NYC Tech Scene"  
+### [ecelerator](http://ecelerator.com)  
 _May 2011_  
 
 Gave a well-received [presentation](https://docs.google.com/present/edit?id=0Ae9AW39A3d-nZDg3cWs4OF80Z2Y5bjc0c2g&authkey=CMr1j_kO&hl=en_US&authkey=CMr1j_kO) on the recent emergence of the New York tech scene and the rise of the startup accelerators to top venture capitalists and technology leaders in New Jersey.
 
-## Hack of the Month
-### [New York Tech Meetup](http://nytm.org)
+## Hack of the Month  
+### [New York Tech Meetup](http://nytm.org)  
 _April 2011_  
 
 Following our success on the Startup Bus, Lemonade Stand was celebrated as an oustanding technical achievement at New York Tech Meetup's [Hack of the Month](http://youtu.be/DC-AiiclmV0) segment.
 
-## Mobile Application Entrepreneurship Talk
-### Rutgers University
+## Mobile Application Entrepreneurship Talk  
+### Rutgers University  
 _January 2011_  
 
 Addressed the Rutgers honors engineering students, encouraging them to hone their craft, dream big, and consider entrepreneurship.
 
-## "Method Swizzling in Objective-C"
-### [Braindump Meetup](http://www.meetup.com/braindump/)
+## "Method Swizzling in Objective-C"  
+### [Braindump Meetup](http://www.meetup.com/braindump/)  
 _January 2011_  
 
 Gave a [presentation](https://docs.google.com/present/edit?id=0Ae9AW39A3d-nZDg3cWs4OF8yazRienM4amg&hl=en_US) and a hands-on [tutorial](https://github.com/DavidYKay/demo-swizzling) of the arcane technique of method swizzling.
 
-## "iPhone 101"
-### [NJ Mobile Meetup](http://meetup.com/njmobile)
+## "iPhone 101"  
+### [NJ Mobile Meetup](http://meetup.com/njmobile)  
 _November 2010_  
 
 Taught an comprehensive [overview](https://docs.google.com/present/edit?id=0AclBGqePjr3KZGR0dGRncWpfMjdoZnR6ZzlkZA) on all topics relevant to iPhone development, including: Objective-C, XCode, Interface Builder, and Cocoa Touch. 
 
-## "Android Development Bootcamp"
-### Princeton University
+## "Android Development Bootcamp"  
+### Princeton University  
 _July 2010_  
 
 Taught an intensive workshop on basic Android development. Slides [here](https://docs.google.com/present/edit?id=0AclBGqePjr3KZGR0dGRncWpfNmNuOTdwa2dq).
