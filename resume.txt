@@ -24,26 +24,54 @@ West Windsor, NJ 08550
 
 # Work Experience
 
-## iOS: Medical Device Design Collaboration Tool
-###[EnHatch](http://enhatch.com)
-_Nov 2011 - Present_  
+## iPhone: Mobile Banking  
+### [Refundo](http://refundo.com)  
+_August 2012 - Present_  
 
-Designed and developed an iPad app to aid biomedical engineers and orthopedic surgeons collaborate in the 3D design of medical implants. 
+Coming in mid-project, led development team of offshore developers to ship a prototype Refundo's iPhone app in time for TechCrunch Disrupt, with an expected release in October.
 
-Single-handedly delivered a prototype under an extremely tight deadline, exceeding client expectations and making them the talk of mHealth 2011 in DC. 
+Refundo is a banking service for underbanked individuals, similar to Simple.com.
 
-The app primarily enables viewing of 3D CAD models. It also supports threaded discussion in a three-pane Twitter-style UI as well as viewing multimedia resources such as PDF, Video.
+## Android: Call-tracking CRM for Africa  
+### [CarbonKeeper](http://carbonkeeper.com)  
+_July 2012 - August 2012_  
 
-## iOS: Social Video Player
-###[Venture-backed social video startup]
-_Aug 2011 - Oct 2011_  
+In Nairobi, Kenya, led the technical design and implementation of the Carbonkeeper Android app for rural energy salesmen in sub-saharan Africa. The app enables light-weight data entry as well as passive call & SMS logging, uploading all customer communications to a central CRM/support database.
+
+The app is currently in pilot with the largest cookstove importer in Kenya.
+
+## Web: Neighborhood Watch  
+### [CrimeFighter](http://www.crimefighterhq.com)  
+_March 2012 - Present_  
+
+Designed, implemented, and managed one other developer through the launch of CrimeFighter, a web application for neighborhood watch groups to exchange training information and crime reports.  
+
+CrimeFighter was developed in partnership with the New York Initiative and is currently in use on both coasts in cities including: New York, Seattle, San Francisco, Los Angeles, and Chesapeake.
+
+## iOS: 3D Medical App  
+### [EnHatch](http://enhatch.com)  
+_November 2011 - July 2012_  
+
+Led the technical design and implementation of 3D Techniq, an iPad/iPhone app for medical device salesmen and surgeons. The app primarily serves as a 3D instruction manual, rendering models and animations using OpenGL. Other functions include "John Madden"-style drawing on the screen, real-time chat, video viewing, analytics, and full offline support. 
+
+Within only five months of launch, EnHatch signed DePuy Orthopedics (a Johnson and Jonhson company) as a customer for the app and the app is now deployed to salesmen and surgeons in North America, Europe, and Asia.
+
+## iPhone: Sonar  
+### [Sonar.me](http://www.sonar.me/)  
+_December 2011 - July 2012_  
+
+Led the implementation of new features including real-time XMPP-based chat, low-power background location, and addressbook bulk-invite. The addressbook integration invited over 14,000 new users within the first week.
+
+## iOS: Social Video Player  
+### [Venture-backed social video startup]  
+_August 2011 - October 2011_  
 
 Developed and launched a 4.5-star-rated video application that integrates with a social video sharing platform. 
 
 Company name withheld due to confidentially restrictions. 
 
-## Android, Mac, Linux: Two-Factor Authentication 
-### [authy](http://authy.com)
+## Android, Mac, Linux: Two-Factor Authentication  
+### [authy](http://authy.com)  
 _May 2011 - June 2011_  
 
 Co-founded __authy__, a Y-Combinator company, as CTO, building an innovative two-factor authentication application, spanning Android, Mac, and Linux platforms and employing Bluetooth connectivity for hands-free authentication. 
@@ -51,25 +79,25 @@ Co-founded __authy__, a Y-Combinator company, as CTO, building an innovative two
 Delivered a [pitch](http://youtu.be/6232zcdNF74) that won 2nd place overall and 2nd place audience choice.
 
 ## Web: oAuth Developer Sandbox
-### [Google Inc](http://google.com), Developer Programs Engineer
+### [Google Inc](http://google.com), Developer Programs Engineer  
 _March 2011 - May 2011_  
 
 Programmed and tested functionality in the [oAuth 2.0 playground](https://code.google.com/oauthplayground/). Resolved upgrade & deployment issues in the [oAuth 1.0 playground](http://googlecodesamples.com/oauth_playground/).
 
-## Web: Doubleclick for Publishers API Client Libraries
-### [Google Inc](http://google.com), Developer Programs Engineer
+## Web: Doubleclick for Publishers API Client Libraries  
+### [Google Inc](http://google.com), Developer Programs Engineer  
 _March 2011 - May 2011_  
 
 Released and maintained [client](http://code.google.com/p/google-api-dfp-python/) [libraries](http://code.google.com/p/google-api-dfp-php/) for the [Doubleclick for Publishers API](http://code.google.com/apis/dfp/) and supported external users from large accounts such as Univision. Also produced PR materials such as [blog posts](http://doubleclickpublishersapi.blogspot.com/2011/05/v201104-simplified-apis-for.html).
 
-## iPhone: Secure Communcations App
-### [Stealth-Mode Startup]
+## iPhone: Secure Communcations App  
+### [Stealth-Mode Startup]  
 _January 2011 - March 2011_  
 
 Designed and developed an iOS application intended for use by law enforcement and defense agencies, working with a team of telecommunications experts and under the leadership of a former intelligence operative.
 
 ## iPhone: Sonar
-### [Sonar.me](http://www.sonar.me/)
+### [Sonar.me](http://www.sonar.me/)  
 _January 2011_  
 
 Corrected every line in the [__Sonar__](http://itunes.apple.com/us/app/sonar-mobile-profile-for-local/id422549956?mt=8) codebase for performance and stability. Minimized risk of rejection by ensuring all UI design was compliant with Apple guidelines.
@@ -85,7 +113,7 @@ Designed and developed the __Global Prime__ application for [iPhone](http://itun
 Addressed extremely sensitive financial data security requirements while delivering a highly responsive, performant application.
 
 ## iOS: Pharmaceutical Sales
-### [Otsuka America Pharmaceutical](http://www.otsuka-us.com/)
+### [Otsuka America Pharmaceutical](http://www.otsuka-us.com/)  
 _August 2010 - September 2010_  
   
 Developed a series of high-value iPad applications(over one million dollars), for a multinational pharmaceutical company under tight deadlines by executing a self-directed work plan. These applications enable pharmaceutical salesmen to download multimedia (PDF, HTML, video) promotional materials onto the iPad for offline presentation.  
@@ -104,56 +132,62 @@ Developed ici Magazine for the iPad. ici Magazine is a platform for magazine pub
 
 # Speaking Engagements
 
-## [Startup Bus Accelerate](http://startupbus.com/events/nycaccelerate)
-### [Startup Bus](http://startupbus.com/)
+## EnHatch Pitch
+### [New Jersey Tech Meetup](http://nytm.org)  
+_May 2012_  
+
+With Peter Verrillo, delivered a presentation of EnHatch's 3D Techniq that won the prestigious Audience Choice Award.
+
+## [Startup Bus Accelerate](http://startupbus.com/events/nycaccelerate)  
+### [Startup Bus](http://startupbus.com/)  
 _November 2011_  
 
 Led sessions on: legal, mobile apps, how to begin coding, pitching / demoing, 
 
-## "Intro to Android Development"
-### [General Assembly](http://generalassemb.ly/)
+## "Intro to Android Development"  
+### [General Assembly](http://generalassemb.ly/)  
 _September 2011_  
 
 Co-taught a three-part, hands-on introduction to Android development.
 
-## "Mommy, where do apps come from?"
-### [Thinking Creatively Conference](http://www.thinkingcreatively.org/)
+## "Mommy, where do apps come from?"  
+### [Thinking Creatively Conference](http://www.thinkingcreatively.org/)  
 _May 2011_  
 
 Gave a comprehensive [overview](http://dl.dropbox.com/u/11816173/Thinking%20Creatively%20-%20April%202011.key) of the mobile app ecosystem to a crowd of over two hundred attendees.
 
-## "State of the NYC Tech Scene"
-###[ecelerator](http://ecelerator.com)
+## "State of the NYC Tech Scene"  
+### [ecelerator](http://ecelerator.com)  
 _May 2011_  
 
 Gave a well-received [presentation](https://docs.google.com/present/edit?id=0Ae9AW39A3d-nZDg3cWs4OF80Z2Y5bjc0c2g&authkey=CMr1j_kO&hl=en_US&authkey=CMr1j_kO) on the recent emergence of the New York tech scene and the rise of the startup accelerators to top venture capitalists and technology leaders in New Jersey.
 
-## Hack of the Month
-###[New York Tech Meetup](http://nytm.org)
+## Hack of the Month  
+### [New York Tech Meetup](http://nytm.org)  
 _April 2011_  
 
 Following our success on the Startup Bus, Lemonade Stand was celebrated as an oustanding technical achievement at New York Tech Meetup's [Hack of the Month](http://youtu.be/DC-AiiclmV0) segment.
 
-## Mobile Application Entrepreneurship Talk
-### Rutgers University
+## Mobile Application Entrepreneurship Talk  
+### Rutgers University  
 _January 2011_  
 
 Addressed the Rutgers honors engineering students, encouraging them to hone their craft, dream big, and consider entrepreneurship.
 
-## "Method Swizzling in Objective-C"
-###[Braindump Meetup](http://www.meetup.com/braindump/)
+## "Method Swizzling in Objective-C"  
+### [Braindump Meetup](http://www.meetup.com/braindump/)  
 _January 2011_  
 
 Gave a [presentation](https://docs.google.com/present/edit?id=0Ae9AW39A3d-nZDg3cWs4OF8yazRienM4amg&hl=en_US) and a hands-on [tutorial](https://github.com/DavidYKay/demo-swizzling) of the arcane technique of method swizzling.
 
-## "iPhone 101"
-### [NJ Mobile Meetup](http://meetup.com/njmobile)
+## "iPhone 101"  
+### [NJ Mobile Meetup](http://meetup.com/njmobile)  
 _November 2010_  
 
 Taught an comprehensive [overview](https://docs.google.com/present/edit?id=0AclBGqePjr3KZGR0dGRncWpfMjdoZnR6ZzlkZA) on all topics relevant to iPhone development, including: Objective-C, XCode, Interface Builder, and Cocoa Touch. 
 
-## "Android Development Bootcamp"
-### Princeton University
+## "Android Development Bootcamp"  
+### Princeton University  
 _July 2010_  
 
 Taught an intensive workshop on basic Android development. Slides [here](https://docs.google.com/present/edit?id=0AclBGqePjr3KZGR0dGRncWpfNmNuOTdwa2dq).
@@ -161,7 +195,7 @@ Taught an intensive workshop on basic Android development. Slides [here](https:/
 # Professional Activities  
 
 ## Co-founder
-###[New Jersey Mobile Meetup](http://meetup.com/njmobile/)  
+### [New Jersey Mobile Meetup](http://meetup.com/njmobile/)  
 _May 2010 - May 2011_  
 
 Led the leading mobile technology group in New Jersey. This group consists of approximately two hundred entrepreneurs, technologists, and hobbyists who meet semimonthly to discuss mobile technology.  
@@ -169,6 +203,43 @@ Led the leading mobile technology group in New Jersey. This group consists of ap
 Co-organized an effort to bring Rutgers University's engineering students in closer contact with the tech industry.
   
 # Hackathons  
+
+##TechCrunch Disrupt SF  
+_September 2012_  
+
+[__QUADRO__](https://www.youtube.com/watch?v=hoSNLR2jv0k) is a personal drone, using the off-the-shelf AR Drone hardware and a custom software system that enables gamepad control, voice commands, and facial recognition.  
+
+Leading my partner over a 24-hour development effort, I used C, Python, the AR Drone SDK, SimpleCV, and the Julius voice recognition engine.
+
+##Battle of the Braces: Python vs Ruby  
+_September 2012_  
+
+[__McCoy__](https://www.youtube.com/watch?v=uC6h173sidA) is voice-controlled 3D viewer of medical imagery, for use in the operating room.  
+
+McCoy was built in 12 hours, solo, using Python, PLY (Python yacc and lex), the Julius voice recognition engine, and OpenGL.  
+
+A dubious honor: the judges decided that it was "too much code" for one developer to have written in 12 hours.
+
+##TechCrunch Disrupt NYC  
+_May 2012_  
+
+[__IKEA 3D__](http://vimeo.com/42573339) is an official and re-envisioned IKEA app for the iPhone. Featuring product reviews, barcode scanning, and 3D instruction manuals, IKEA would do well to adopt this app!
+
+##NASA Space Apps Challenge  
+_April 2012_  
+
+Led the effort to develop [__CERES__](http://cerespricing.com/), an SMS & web-based app for rural farmers to share food pricing data.
+
+We won the NYC segment of the Space Apps challenge to advance to the global round, where we competed against the top 50 teams from around the world.
+
+Please see the [pitch video](http://youtu.be/L0zh2DSindo) for more information.
+
+##Coca-Cola & Spotify: Hacker Den  
+_April 2012_  
+
+I was invited to the exclusive and private "Hacker Den" event, held to celebrate the new partnership between Coca-Cola and Spotify, where I led a four-man team to win $5K and the distinction of "best presentation."
+
+See event [video](http://www.youtube.com/watch?v=viP-9KHv1fs) for more information.
 
 ##Reinventing Local Hackathon  
 _November 2011_  
