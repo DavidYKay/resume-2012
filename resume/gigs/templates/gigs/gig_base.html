@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="{% url summary %}">{% block content_title %}
+        <!--  {{ page_title }} -->
+        David Y. Kay
+        {% endblock %}</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="active"><a href="{% url summary %}">Summary</a></li>
+          <li><a href="{% url gig-list %}">Work</a></li>
+          <li><a href="{% url hackathon-list %}">Hackathons</a></li>
+          <li><a href="{% url speaking-list %}">Speaking</a></li>
+          <li><a href="{% url project-list %}">Projects</a></li>
+          <li><a href="{% url education %}">Education</a></li>
+          <li><a href="{% url contact %}">Contact</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="content">
+    {% block content %}{% endblock %}
+  </div>
+  {% endblock %}
+
+</div>

@@ -1,0 +1,67 @@
+{% extends "gigs/gig_base.html" %}
+
+{% load markup %}
+{% load embed_filters %}
+
+{% block content %}
+
+  {% for gig in gig_list %}
+
+  <div class="well">
+    {% if gig.logo %}
+    <img class="gig-logo pull-right" src="{{ gig.logo }}"/>
+    {% endif %}
+
+    <div class="page-header">
+      <a class="gig-link" href="{{ gig.get_absolute_url }}">
+      <h1>{{ gig.name }} <small>{{ gig.tagline }}</small></h1>
+      </a>
+    </div>
+
+    <div class="gig-platforms pull-left">
+      <ul>
+        {% for platform in gig.platforms.all %}
+        <li>
+          {% if platform.logo %}
+          <img class="platform-logo" src="{{ platform.logo }}"/>
+          {% else %}
+          {{ platform }}
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="gig-date pull-right">{{ gig.formatted_date }}</div>
+    <div class="clearfix"></div>
+
+    <p class="gig-description">{{ gig.description|markdown|linebreaks }}</p>
+    <!--
+    <div class="clearfix"></div>
+
+    <p>{{ gig.description|truncatewords:"10" }}</p>
+    <p>{{ gig.tagline }}</p>
+    <div class="container">
+    </div>
+
+<img class="app_store_link" src="http://employeedirectory.org/app/appstore.png"/>
+-->
+
+    <div class="videos">
+      {% for video in gig.video_set.all %}
+        {{ video.embed_url|embedly|safe }}
+      {% endfor %}
+    </div>
+
+    <div class="app-store-links">
+      {% for listing in gig.appstorelisting_set.all %}
+      <a href="{{ listing.url }}">
+        <img class="app-store-link" src="{{ listing.platform.appstore_logo }}"/>
+      </a>
+      {% endfor %}
+    </div>
+
+  </div>
+
+{% endfor %}
+
+{% endblock %}

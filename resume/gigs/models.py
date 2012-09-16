@@ -1,15 +1,51 @@
 from django.db import models
 
-# Create your models here.
+from resume.lib.string_utils import nice_date
+
+from embedly import Embedly
+
+
+class Platform(models.Model):
+  name = models.CharField(max_length=50)
+  logo = models.URLField(blank=True)
+  appstore_logo = models.URLField(blank=True)
+
+  def __unicode__(self):
+    return self.name
+
+class GigType(models.Model):
+  name = models.CharField(max_length=50)
+  verbose_name = models.CharField(max_length=50)
+
+  def __unicode__(self):
+    return self.name
 
 class Gig(models.Model):
+  type = models.ForeignKey(GigType)
   name = models.CharField(max_length=50)
-  client = models.CharField(max_length=50)
-  location = models.DateTimeField()
-  begin_date = models.DateTimeField()
-  end_date = models.DateTimeField()
-  logo = models.URLField()
+  client = models.CharField(blank=True, max_length=50)
+  platforms = models.ManyToManyField(Platform, blank=True)
+  tagline = models.CharField(max_length=50)
+  location = models.CharField(max_length=50)
+  begin_date = models.DateField()
+  end_date = models.DateField(blank=True, null=True)
+  logo = models.URLField(blank=True)
   description = models.TextField()
+
+  def formatted_date(self):
+    begin_date = nice_date(self.begin_date)
+    if self.end_date is None:
+      end_date = "Present"
+    else:
+      end_date = nice_date(self.end_date)
+
+    return "%s - %s" % (begin_date, end_date)
+
+  class Meta:
+    ordering = ['-end_date', '-begin_date']
+
+  def __unicode__(self):
+    return "%s: %s" % (self.client, self.name)
 
 #class SpeakingEvent(models.Model):
 #  pass
@@ -26,10 +62,23 @@ class Attachment(models.Model):
 class Video(Attachment):
   url = models.URLField()
 
+  def embed_url(self):
+    return "Embed: %s" % (self.url)
+
+  def test_html(self):
+    return '3rd world democracy: galaaang Embed: http://www.youtube.com/watch?v=DCL1RpgYxRM'
+
+  def __unicode__(self):
+    return "%s: %s" % (self.gig, self.url)
+
 class Photo(Attachment):
   title = models.CharField(max_length=50)
   description = models.TextField()
   order = models.IntegerField()
 
 class CodeRepo(Attachment):
+  url = models.URLField()
+
+class AppStoreListing(Attachment):
+  platform = models.ForeignKey(Platform)
   url = models.URLField()

@@ -1,0 +1,56 @@
+{% extends "gigs/gig_base.html" %}
+
+{% load markup %}
+
+{% block content %}
+
+<div class="row">
+  <div class="main-content span10">
+    <div>
+      <img class="portrait"
+      src="http://0.gravatar.com/avatar/30d6fbf81284ac9005e8e9ccc7ecfb1e?size=420"
+      />
+    </div>
+    <div id="name">David Y. Kay</div>
+    <div id="title">Mobile Developer</div>
+    <a href="{% url contact %}" class="btn btn-primary btn-large">
+      Contact
+    </a>
+    
+    <div class="latest-hack">
+      <div class="latest-hack-title">Latest Presentation</div>
+      <iframe width="560" height="315" src="http://www.youtube.com/embed/hoSNLR2jv0k" frameborder="0" allowfullscreen></iframe>
+    </div>
+      
+    <div class="summary-header">
+      <h2>Summary</h2>
+    </div>
+    <div class="summary">
+      "...best iOS developer around." - [Yan Tsirklin], Head of BD at Textbroker International
+
+      <br />
+
+      "...definitely the most talented developer I've worked with." - [Christopher Kennedy], Lead UX Strategist at M. Shanken Communications
+      <br />
+
+      "He's like a magician." - [Peter Verrillo], Founder and CEO of EnHatch
+      <br />
+
+    </div>
+
+  </div>
+  <div class="right-bar span2">
+    <div class="links">
+      Links
+      <ul>
+        <li>GitHub</li>
+        <li>Blog</li>
+        <li>Twitter</li>
+        <li>LinkedIn</li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+{% endblock %}
