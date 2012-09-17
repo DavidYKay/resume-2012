@@ -66,6 +66,7 @@ p {font-size:100%}
 
 .platform-logo {
   height: 57px;
+  margin-bottom: 10px;
 }
 
 .repos {
@@ -88,6 +89,7 @@ ul.gig-platforms-list li
 
 .gig-logo {
   height: 57px;
+  max-width:400px;
   position:relative;
   top:-15px;
 }
