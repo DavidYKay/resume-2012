@@ -16,13 +16,23 @@ body {
 #name {
 }
 
+#latest-hack-video {
+  border-radius: 15px;
+}
+
 p {font-size:100%}
 .main-content {
   background-color: #CCC;
+  border-radius: 10px;
 }
 
 .right-bar {
   background-color: #EEE;
+  border-radius: 10px;
+}
+
+.links {
+  padding: 10px;
 }
 
 .portrait {
