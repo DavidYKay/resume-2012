@@ -8,10 +8,10 @@ class ExternalSite(models.Model):
   name = models.CharField(max_length=50)
   url = models.URLField()
   order = models.IntegerField()
-  
+
   def __unicode__(self):
     return self.name
-  
+
   class Meta:
     ordering = ['order', ]
 
@@ -49,7 +49,10 @@ class Gig(models.Model):
     else:
       end_date = nice_date(self.end_date)
 
-    return "%s - %s" % (begin_date, end_date)
+    if begin_date == end_date:
+      return begin_date
+    else:
+      return "%s - %s" % (begin_date, end_date)
 
   class Meta:
     ordering = ['-end_date', '-begin_date']
