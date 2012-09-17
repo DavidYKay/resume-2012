@@ -2,6 +2,7 @@
 
 import os
 
+from S3 import CallingFormat
 import dj_database_url
 
 SITE_ROOT = os.path.abspath(os.path.dirname(__file__))
