@@ -40,6 +40,10 @@ p {font-size:100%}
   border-radius: 15px;
 }
 
+.gig-photo {
+  height: 360px;
+}
+
 .dk-profile {
 }
 

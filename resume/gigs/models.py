@@ -85,9 +85,13 @@ class Video(Attachment):
     return "%s: %s" % (self.gig, self.url)
 
 class Photo(Attachment):
+  imgur_id = models.CharField(max_length=100)
   title = models.CharField(max_length=50)
-  description = models.TextField()
-  order = models.IntegerField()
+  description = models.TextField(blank=True)
+  order = models.IntegerField(default=1)
+  
+  def __unicode__(self):
+    return "%s: %s" % (self.title, self.description)
 
 class CodeRepo(Attachment):
   """ Currently this is GitHub only """

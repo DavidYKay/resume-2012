@@ -49,11 +49,19 @@
     </div>
 
 <img class="app_store_link" src="http://employeedirectory.org/app/appstore.png"/>
+        <img class="gig-photo" src="{{ photo.url }}"/>
+        
 -->
 
     <div class="videos">
       {% for video in gig.video_set.all %}
         {{ video.embed_url|embedly|safe }}
+      {% endfor %}
+    </div>
+    
+    <div class="photos">
+      {% for photo in gig.photo_set.all %}
+        <iframe class="imgur-album" width="640" height="360" frameborder="0" src="http://imgur.com/a/{{ photo.imgur_id }}/embed"></iframe>
       {% endfor %}
     </div>
 
