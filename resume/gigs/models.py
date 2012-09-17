@@ -90,7 +90,12 @@ class Photo(Attachment):
   order = models.IntegerField()
 
 class CodeRepo(Attachment):
-  url = models.URLField()
+  """ Currently this is GitHub only """
+  username = models.CharField(max_length=100)
+  reponame = models.CharField(max_length=100)
+  
+  def __unicode__(self):
+    return "%s: %s" % (self.username, self.reponame)
 
 class AppStoreListing(Attachment):
   platform = models.ForeignKey(Platform)

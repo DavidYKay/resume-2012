@@ -18,6 +18,7 @@
       </a>
     </div>
 
+
     <div class="gig-platforms pull-left">
       <ul class="gig-platforms-list">
         {% for platform in gig.platforms.all %}
@@ -31,8 +32,12 @@
         {% endfor %}
       </ul>
     </div>
+
     <div class="gig-date pull-right">{{ gig.formatted_date }}</div>
+
+
     <div class="clearfix"></div>
+
 
     <p class="gig-description">{{ gig.description|markdown|linebreaks }}</p>
     <!--
@@ -57,6 +62,19 @@
       <a href="{{ listing.url }}">
         <img class="app-store-link" src="{{ listing.platform.appstore_logo }}"/>
       </a>
+      {% endfor %}
+    </div>
+
+    <div class="repos pull-right">
+      {% for repo in gig.coderepo_set.all %}
+        <!--  
+        src="http://ghbtns.com/github-btn.html?user=DavidYKay&repo=QUADRO&type=fork"
+        allowtransparency="true" frameborder="0" scrolling="0" width="62px" height="20px">
+        -->
+      <iframe
+        src="http://ghbtns.com/github-btn.html?user={{ repo.username }}&repo={{ repo.reponame }}&type=fork"
+        allowtransparency="true" frameborder="0" scrolling="0" width="62px" height="20px">
+      </iframe>
       {% endfor %}
     </div>
 
