@@ -23,22 +23,9 @@ INTERNAL_IPS = ('127.0.0.1',)
 
 if os.environ.get('ENVIRONMENT') == 'production':
   DATABASES = {'default': dj_database_url.config(default='postgres://localhost')}
-
-  AWS_BUCKET_NAME = 'media.davidykay.com'   # Bucket name
-  # BOTO
-  #DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
-  #STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
-  DEFAULT_FILE_STORAGE = 'storages.backends.s3.S3Storage'
-  STATICFILES_STORAGE  = 'storages.backends.s3.S3Storage'
-  AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-  AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-  AWS_CALLING_FORMAT = CallingFormat.SUBDOMAIN
-  AWS_STORAGE_BUCKET_NAME = AWS_BUCKET_NAME
-
-else:
+  # TODO: Debug only!
   DATABASES = {
       'default': {
-          #'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
           'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
           'NAME': 'resume',         # Or path to database file if using sqlite3.
           'USER': '',                      # Not used with sqlite3.
@@ -47,8 +34,48 @@ else:
           'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
       }
   }
+
+
+  MEDIA_ROOT  = 'media/'
+  STATIC_ROOT = ''
+
+  MEDIA_URL  = 'http://media.davidykay.com/media/'
+  STATIC_URL = 'http://media.davidykay.com/'
+
+  AWS_BUCKET_NAME = 'media.davidykay.com'   # Bucket name
+  # BOTO
+  DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+  STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+  AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+  AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+  AWS_CALLING_FORMAT = CallingFormat.SUBDOMAIN
+  AWS_STORAGE_BUCKET_NAME = AWS_BUCKET_NAME
+else:
   DEBUG = True
   TEMPLATE_DEBUG = DEBUG
+
+  DATABASES = {
+      'default': {
+          'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+          'NAME': 'resume',         # Or path to database file if using sqlite3.
+          'USER': '',                      # Not used with sqlite3.
+          'PASSWORD': '',                  # Not used with sqlite3.
+          'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+          'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+      }
+  }
+
+  STATIC_ROOT = SITE_ROOT + '/static/'
+  STATIC_URL = '/static/'
+  # Absolute filesystem path to the directory that will hold user-uploaded files.
+  # Example: "/home/media/media.lawrence.com/media/"
+  #MEDIA_ROOT = ''
+  MEDIA_ROOT = SITE_ROOT + '/media/'
+
+  # URL that handles the media served from MEDIA_ROOT. Make sure to use a
+  # trailing slash.
+  # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
+  MEDIA_URL = ''
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -73,26 +100,15 @@ USE_L10N = True
 # If you set this to False, Django will not use timezone-aware datetimes.
 USE_TZ = True
 
-# Absolute filesystem path to the directory that will hold user-uploaded files.
-# Example: "/home/media/media.lawrence.com/media/"
-#MEDIA_ROOT = ''
-MEDIA_ROOT = SITE_ROOT + '/media/'
-
-# URL that handles the media served from MEDIA_ROOT. Make sure to use a
-# trailing slash.
-# Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
-MEDIA_URL = ''
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
 #STATIC_ROOT = ''
-STATIC_ROOT = SITE_ROOT + '/static/'
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
@@ -169,6 +185,7 @@ INSTALLED_APPS = (
     'resume.gigs',
 
     # 3rd party
+    #'boto',
     'embeds',
     'south',
     'debug_toolbar',
