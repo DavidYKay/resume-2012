@@ -6,8 +6,6 @@ import dj_database_url
 
 SITE_ROOT = os.path.abspath(os.path.dirname(__file__))
 
-DEBUG = True
-TEMPLATE_DEBUG = DEBUG
 
 #DEBUG_TOOLBAR_CONFIG[INTERCEPT_REDIRECT] = False
 DEBUG_TOOLBAR_CONFIG = {
@@ -36,6 +34,8 @@ else:
           'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
       }
   }
+  DEBUG = True
+  TEMPLATE_DEBUG = DEBUG
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
