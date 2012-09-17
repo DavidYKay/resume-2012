@@ -68,10 +68,12 @@ p {font-size:100%}
   background-color: gray;
 }
 
-.gig-platforms li
+
+ul.gig-platforms-list li
 {
-  display: inline;
+  display: inline-block;
   list-style-type: square;
+  margin-left: 5px;
 }
 
 .gig-logo {
