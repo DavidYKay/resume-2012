@@ -55,7 +55,7 @@
 
     <div class="videos">
       {% for video in gig.video_set.all %}
-        {{ video.embed_url|embedly|safe }}
+        {{ video.embed_url|embedly:"640"|safe }}
       {% endfor %}
     </div>
     

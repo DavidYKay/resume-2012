@@ -99,8 +99,16 @@ ul.gig-platforms-list li
 .gig-date {
 }
 
+.videos {
+  margin-top: 30px;
+}
+
 .gig-description {
   margin-top: 10px;
+}
+
+.app-store-links {
+  margin-top: 30px;
 }
 
 .app-store-link {
