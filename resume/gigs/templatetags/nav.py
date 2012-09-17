@@ -12,8 +12,9 @@ def active(request, url_name):
   #if request != '' and re.search(pattern, request.path):
   pattern = "^%s$" % reverse(url_name)
   if pattern != '' and re.search(pattern, request.path):
-    print "MATCH FOUND pattern was: %s" % (pattern)
+    #print "MATCH FOUND pattern was: %s" % (pattern)
     return 'active'
   else:
-    print "NO MATCH FOUND pattern was: %s" % (pattern)
+    pass
+    #print "NO MATCH FOUND pattern was: %s" % (pattern)
   return ''

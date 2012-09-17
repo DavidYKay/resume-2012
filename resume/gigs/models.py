@@ -4,6 +4,16 @@ from resume.lib.string_utils import nice_date
 
 from embedly import Embedly
 
+class ExternalSite(models.Model):
+  name = models.CharField(max_length=50)
+  url = models.URLField()
+  order = models.IntegerField()
+  
+  def __unicode__(self):
+    return self.name
+  
+  class Meta:
+    ordering = ['order', ]
 
 class Platform(models.Model):
   name = models.CharField(max_length=50)

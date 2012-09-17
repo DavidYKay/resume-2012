@@ -1,5 +1,9 @@
 from django.contrib import admin
-from models import Platform, GigType, Gig, Video, Photo, CodeRepo, AppStoreListing
+from models import ExternalSite, Platform, GigType, Gig, Video, Photo, CodeRepo, AppStoreListing
+
+class ExternalSiteAdmin(admin.ModelAdmin):
+    list_display = ('name', 'url', 'order')
+admin.site.register(ExternalSite, ExternalSiteAdmin)
 
 class PlatformAdmin(admin.ModelAdmin):
     list_display = ('name', 'logo', )

@@ -38,33 +38,32 @@
           <h2>Summary</h2>
         </div>
         <div class="summary-quotes">
-          "...best iOS developer around." - [Yan Tsirklin], Head of BD at Textbroker International
-
-          <br />
-
-          "...definitely the most talented developer I've worked with." - [Christopher Kennedy], Lead UX Strategist at M. Shanken Communications
-          <br />
-
-          "He's like a magician." - [Peter Verrillo], Founder and CEO of EnHatch
-          <br />
-
+          <p> "...best iOS developer around." - [Yan Tsirkpn], Head of BD at Textbroker International </p>
+          <p> 
+            "...definitely the most talented developer I've worked with." - [Christopher Kennedy], Lead UX Strategist at M. Shanken Communications
+          </p>
+          <p> 
+            "He's like a magician." - [Peter Verrillo], Founder and CEO of EnHatch
+          </p>
         </div>
       </div>
     </div>
 
   </div>
   <div class="right-bar span2">
+
     <div class="links">
       Links
       <ul>
-        <li>GitHub</li>
-        <li>Blog</li>
-        <li>Twitter</li>
-        <li>LinkedIn</li>
-
+        {% for site in external_sites %}
+        <li>
+          <a href="{{ site.url }}">
+            {{ site.name }}
+          </a>
+        </li>
+        {% endfor %}
       </ul>
     </div>
   </div>
 
-
-  {% endblock %}
+{% endblock %}

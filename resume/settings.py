@@ -9,6 +9,11 @@ SITE_ROOT = os.path.abspath(os.path.dirname(__file__))
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+#DEBUG_TOOLBAR_CONFIG[INTERCEPT_REDIRECT] = False
+DEBUG_TOOLBAR_CONFIG = {
+    "INTERCEPT_REDIRECTS": False,
+}
+
 ADMINS = (
      ('David Y. Kay', 'davidykay@gmail.com'),
 )
@@ -144,6 +149,7 @@ TEMPLATE_DIRS = (
 
 
 EMBEDLY_KEY = '489ce883805046549cce73eccf0bb270'
+
 
 INSTALLED_APPS = (
     # our app

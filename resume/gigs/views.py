@@ -6,7 +6,7 @@ from django.views.generic import TemplateView
 from django.views.generic.list import ListView
 from django.views.generic.simple import direct_to_template
 
-from models import Gig, GigType
+from models import Gig, GigType, ExternalSite
 
 def hello(request):
   return HttpResponse('hello world')
@@ -17,6 +17,7 @@ class SummaryView(TemplateView):
   def get_context_data(self, **kwargs):
     context = super(SummaryView, self).get_context_data(**kwargs)
     context['page_title'] = 'Summary'
+    context['external_sites'] = ExternalSite.objects.all()
     return context
 
 class GigListView(ListView):
