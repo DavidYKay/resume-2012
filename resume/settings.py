@@ -22,6 +22,16 @@ INTERNAL_IPS = ('127.0.0.1',)
 
 if os.environ.get('ENVIRONMENT') == 'production':
   DATABASES = {'default': dj_database_url.config(default='postgres://localhost')}
+
+  AWS_BUCKET_NAME = 'media.davidykay.com'   # Bucket name
+  # BOTO
+  DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+  AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+  AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+  AWS_CALLING_FORMAT = CallingFormat.SUBDOMAIN
+  AWS_STORAGE_BUCKET_NAME = AWS_BUCKET_NAME
+  STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+
 else:
   DATABASES = {
       'default': {
@@ -173,6 +183,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
 )
+
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to

@@ -5,6 +5,7 @@ South==0.7.6
 distribute==0.6.28
 dj-database-url==0.2.1
 django-debug-toolbar==0.9.4
+django-storages==1.1.5
 httplib2==0.7.6
 ipython==0.13
 psycopg2==2.4.5
