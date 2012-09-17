@@ -7,6 +7,8 @@ import dj_database_url
 
 SITE_ROOT = os.path.abspath(os.path.dirname(__file__))
 
+DEBUG = True
+TEMPLATE_DEBUG = DEBUG
 
 #DEBUG_TOOLBAR_CONFIG[INTERCEPT_REDIRECT] = False
 DEBUG_TOOLBAR_CONFIG = {
@@ -39,8 +41,6 @@ if os.environ.get('ENVIRONMENT') == 'production':
   AWS_CALLING_FORMAT = CallingFormat.SUBDOMAIN
   AWS_STORAGE_BUCKET_NAME = AWS_BUCKET_NAME
 else:
-  DEBUG = True
-  TEMPLATE_DEBUG = DEBUG
 
   DATABASES = {
       'default': {
