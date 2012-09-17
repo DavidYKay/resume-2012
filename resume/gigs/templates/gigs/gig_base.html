@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 
+{% load nav %}
+
+
 {% block body %}
+
 
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
@@ -16,13 +20,15 @@
         {% endblock %}</a>
       <div class="nav-collapse collapse">
         <ul class="nav">
-          <li class="active"><a href="{% url summary %}">Summary</a></li>
-          <li><a href="{% url gig-list %}">Work</a></li>
-          <li><a href="{% url hackathon-list %}">Hackathons</a></li>
-          <li><a href="{% url speaking-list %}">Speaking</a></li>
-          <li><a href="{% url project-list %}">Projects</a></li>
-          <li><a href="{% url education %}">Education</a></li>
-          <li><a href="{% url contact %}">Contact</a></li>
+          <li class="{% active request "summary" %}"><a href="{% url summary %}">Summary</a></li>
+
+          <li class="{% active request "gig-list" %}"><a href="{% url gig-list %}">Work</a></li>
+          <li class="{% active request "hackathon-list" %}"><a href="{% url hackathon-list %}">Hackathons</a></li>
+          <li class="{% active request "speaking-list" %}"><a href="{% url speaking-list %}">Speaking</a></li>
+          <li class="{% active request "project-list" %}"><a href="{% url project-list %}">Projects</a></li>
+
+          <li class="{% active request "education" %}"><a href="{% url education %}">Education</a></li>
+          <li class="{% active request "contact" %}"><a href="{% url contact %}">Contact</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -35,5 +41,4 @@
     {% block content %}{% endblock %}
   </div>
   {% endblock %}
-
 </div>
