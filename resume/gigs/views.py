@@ -53,8 +53,10 @@ class ProjectListView(ListView):
     context['page_title'] = 'Projects'
     return context
 
-class EducationView(TemplateView):
-  template_name = "education.html"
+#class EducationView(TemplateView):
+class EducationView(ListView):
+  queryset = Gig.objects.filter(type=GigType.objects.get(name='education'))
+  #template_name = "education.html"
   
   def get_context_data(self, **kwargs):
     context = super(EducationView, self).get_context_data(**kwargs)
