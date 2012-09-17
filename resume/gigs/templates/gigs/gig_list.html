@@ -9,13 +9,13 @@
 
   <div class="well">
     {% if gig.logo %}
-    <img class="gig-logo pull-right" src="{{ gig.logo }}"/>
+      <img class="gig-logo pull-right" src="{{ gig.logo }}"/>
     {% endif %}
 
     <div class="page-header">
-      <a class="gig-link" href="{{ gig.get_absolute_url }}">
-      <h1>{{ gig.name }} <small>{{ gig.tagline }}</small></h1>
-      </a>
+      {% if gig.url %}<a class="gig-link" href="{{ gig.url }}">{% endif %}
+        <h1>{{ gig.name }} <small>{{ gig.tagline }}</small></h1>
+      {% if gig.url %}</a>{% endif %}
     </div>
 
 

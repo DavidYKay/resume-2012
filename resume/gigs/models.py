@@ -33,6 +33,7 @@ class GigType(models.Model):
 class Gig(models.Model):
   type = models.ForeignKey(GigType)
   name = models.CharField(max_length=50)
+  url = models.URLField(blank=True)
   client = models.CharField(blank=True, max_length=50)
   platforms = models.ManyToManyField(Platform, blank=True)
   tagline = models.CharField(max_length=50)
