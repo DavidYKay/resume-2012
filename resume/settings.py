@@ -2,7 +2,7 @@
 
 import os
 
-from S3 import CallingFormat
+from lib.S3 import CallingFormat
 import dj_database_url
 
 SITE_ROOT = os.path.abspath(os.path.dirname(__file__))
@@ -26,12 +26,14 @@ if os.environ.get('ENVIRONMENT') == 'production':
 
   AWS_BUCKET_NAME = 'media.davidykay.com'   # Bucket name
   # BOTO
-  DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+  #DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+  #STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+  DEFAULT_FILE_STORAGE = 'storages.backends.s3.S3Storage'
+  STATICFILES_STORAGE  = 'storages.backends.s3.S3Storage'
   AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
   AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
   AWS_CALLING_FORMAT = CallingFormat.SUBDOMAIN
   AWS_STORAGE_BUCKET_NAME = AWS_BUCKET_NAME
-  STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 
 else:
   DATABASES = {
