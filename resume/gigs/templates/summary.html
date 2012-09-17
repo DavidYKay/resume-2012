@@ -6,36 +6,50 @@
 
 <div class="row">
   <div class="main-content span10">
-    <div>
-      <img class="portrait"
-      src="http://0.gravatar.com/avatar/30d6fbf81284ac9005e8e9ccc7ecfb1e?size=420"
-      />
-    </div>
-    <div id="name">David Y. Kay</div>
-    <div id="title">Mobile Developer</div>
-    <a href="{% url contact %}" class="btn btn-primary btn-large">
-      Contact
-    </a>
-    
-    <div class="latest-hack">
-      <div class="latest-hack-title">Latest Presentation</div>
-      <iframe width="560" height="315" src="http://www.youtube.com/embed/hoSNLR2jv0k" frameborder="0" allowfullscreen></iframe>
-    </div>
-      
-    <div class="summary-header">
-      <h2>Summary</h2>
-    </div>
-    <div class="summary">
-      "...best iOS developer around." - [Yan Tsirklin], Head of BD at Textbroker International
+    <div class="summary-wrapper">
 
-      <br />
+      <div class="latest-hack pull-right">
+        <!--
+        <iframe width="560" height="315" src="http://www.youtube.com/embed/hoSNLR2jv0k" frameborder="0" allowfullscreen></iframe>
+        -->
+        <iframe width="480" height="315" src="http://www.youtube.com/embed/hoSNLR2jv0k" frameborder="0" allowfullscreen></iframe>
+        <div class="latest-hack-title">Latest Presentation</div>
+      </div>
 
-      "...definitely the most talented developer I've worked with." - [Christopher Kennedy], Lead UX Strategist at M. Shanken Communications
-      <br />
+      <div class="dk-profile">
+        <div>
+          <img class="portrait"
+          src="http://0.gravatar.com/avatar/30d6fbf81284ac9005e8e9ccc7ecfb1e?size=420"
+          />
+        </div>
+        <div id="name">
+          <h2>David Y. Kay</h2>
+        </div>
+        <div id="title">
+          <h3>Mobile Developer</h3>
+        </div>
+        <a href="{% url contact %}" id="contact-btn" class="btn btn-primary btn-large">
+          Contact
+        </a>
+      </div>
 
-      "He's like a magician." - [Peter Verrillo], Founder and CEO of EnHatch
-      <br />
+      <div class="summary">
+        <div class="summary-header">
+          <h2>Summary</h2>
+        </div>
+        <div class="summary-quotes">
+          "...best iOS developer around." - [Yan Tsirklin], Head of BD at Textbroker International
 
+          <br />
+
+          "...definitely the most talented developer I've worked with." - [Christopher Kennedy], Lead UX Strategist at M. Shanken Communications
+          <br />
+
+          "He's like a magician." - [Peter Verrillo], Founder and CEO of EnHatch
+          <br />
+
+        </div>
+      </div>
     </div>
 
   </div>
@@ -47,10 +61,10 @@
         <li>Blog</li>
         <li>Twitter</li>
         <li>LinkedIn</li>
-        
+
       </ul>
     </div>
   </div>
 
 
-{% endblock %}
+  {% endblock %}
