@@ -24,7 +24,7 @@
         {% for platform in gig.platforms.all %}
         <li>
           {% if platform.logo %}
-          <img class="platform-logo" src="{{ platform.logo }}"/>
+          <img class="platform-logo" title="{{ platform.name }}" src="{{ platform.logo }}"/>
           {% else %}
           {{ platform }}
           {% endif %}
