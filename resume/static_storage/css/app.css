@@ -33,6 +33,10 @@ p {font-size:100%}
 
 .links {
   padding: 10px;
+  font-size: medium;
+}
+
+.links ul li {
 }
 
 .portrait {
@@ -40,9 +44,6 @@ p {font-size:100%}
   border-radius: 15px;
 }
 
-.gig-photo {
-  height: 360px;
-}
 
 .dk-profile {
 }
@@ -87,6 +88,19 @@ ul.gig-platforms-list li
   margin-left: 5px;
 }
 
+.gig-description {
+  margin-top: 10px;
+}
+
+
+.gig-description p {
+  font-size: medium;
+}
+
+.summary-quotes p {
+  font-size: medium;
+}
+
 .gig-logo {
   height: 57px;
   max-width:400px;
@@ -99,15 +113,19 @@ ul.gig-platforms-list li
 
 
 .gig-date {
+  font-size: medium;
+  margin-bottom: 30px;
 }
+
+.gig-photo {
+  height: 360px;
+}
+
 
 .videos {
   margin-top: 30px;
 }
 
-.gig-description {
-  margin-top: 10px;
-}
 
 .app-store-links {
   margin-top: 30px;
