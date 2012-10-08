@@ -22,6 +22,7 @@ MANAGERS = ADMINS
 INTERNAL_IPS = ('127.0.0.1',)
 
 if os.environ.get('ENVIRONMENT') == 'production':
+  DEBUG = False
   DATABASES = {'default': dj_database_url.config(default='postgres://localhost')}
 
   MEDIA_ROOT  = 'media/'
