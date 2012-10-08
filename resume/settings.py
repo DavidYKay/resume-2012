@@ -7,8 +7,6 @@ import dj_database_url
 
 SITE_ROOT = os.path.abspath(os.path.dirname(__file__))
 
-DEBUG = True
-TEMPLATE_DEBUG = DEBUG
 
 #DEBUG_TOOLBAR_CONFIG[INTERCEPT_REDIRECT] = False
 DEBUG_TOOLBAR_CONFIG = {
@@ -41,6 +39,7 @@ if os.environ.get('ENVIRONMENT') == 'production':
   AWS_CALLING_FORMAT = CallingFormat.SUBDOMAIN
   AWS_STORAGE_BUCKET_NAME = AWS_BUCKET_NAME
 else:
+  DEBUG = True
 
   DATABASES = {
       'default': {
@@ -64,6 +63,7 @@ else:
   # trailing slash.
   # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
   MEDIA_URL = ''
+TEMPLATE_DEBUG = DEBUG
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
