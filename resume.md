@@ -15,8 +15,8 @@
 
 __David Y. Kay__  
 DavidYKay@gmail.com  
-22 Fairway Drive  
-West Windsor, NJ 08550  
+63 Coles St
+Jersey City, NJ 07302
 
 * [LinkedIn](http://linkedin.com/in/DavidYKay)  
 * [Blog](http://onlyplateaus.com)  
@@ -24,9 +24,34 @@ West Windsor, NJ 08550
 
 # Work Experience
 
+## Clojure: Shareablee
+_April 2014 - December 2014_  
+Developed reusable Storm bolts in Clojure. Implemented support for social networks including: Google+, LinkedIn, and Twitter.
+
+## iPhone & Android: Cheek'd
+_Q1 2014_  
+Shark tank
+3 weeks
+Team of 7
+
+## Android: 1-800-GOT-JUNK? Fleet App
+_Fall 2013_  
+Team of 3
+3 Months
+Used in the worldwide truck fleet. Integrated with
+
+## iPhone: Camra
+_Q2-Q3 2013_  
+Cutting edge
+Possibly the world's first use of GPGPU-powered digital zoom for live video capture.
+
+## iPhone: 1-800-GOT-JUNK? MVP
+_Q1 2013_  
+In only 5 weeks, prepared an MVP for launch at the annual franchisee summit. The app was a great success with the pilot group and they later invited me back to develop a fully-blown production system.
+
 ## iPhone: Mobile Banking  
 ### [Refundo](http://refundo.com)  
-_August 2012 - Present_  
+_August 2012 - November 2012_  
 
 Coming in mid-project, led development team of offshore developers to ship a prototype Refundo's iPhone app in time for TechCrunch Disrupt, with an expected release in October.
 
@@ -42,7 +67,7 @@ The app is currently in pilot with the largest cookstove importer in Kenya.
 
 ## Web: Neighborhood Watch  
 ### [CrimeFighter](http://www.crimefighterhq.com)  
-_March 2012 - Present_  
+_March 2012 - January 2013_  
 
 Designed, implemented, and managed one other developer through the launch of CrimeFighter, a web application for neighborhood watch groups to exchange training information and crime reports.  
 
@@ -131,6 +156,13 @@ Resolved complex memory management issues. Assisted in design of REST API. Admin
 Developed ici Magazine for the iPad. ici Magazine is a platform for magazine publishers to easily deliver their content as an iPad-optimized magazine.
 
 # Speaking Engagements
+
+## Slaying bugs with Gradle and Jenkins
+### [New York Android Developers Meetup](http://www.meetup.com/android-developers-nyc/)
+_Sep 2013_  
+Taught an audience of experience Android developers how to implement continuous integration using Gradle and Jenkins.
+
+[Slides](http://www.slideshare.net/DavidYKay/slaying-bugs-with-gradle-and-jenkins)
 
 ## Ruby on Rails Bootcamp
 ### [Nairuby, Nairobi, Kenya](https://github.com/Nairuby)  
