@@ -132,6 +132,12 @@ Developed ici Magazine for the iPad. ici Magazine is a platform for magazine pub
 
 # Speaking Engagements
 
+## Ruby on Rails Bootcamp
+### [Nairuby, Nairobi, Kenya](https://github.com/Nairuby)  
+_July 2012_  
+
+Instructed intermediate and beginning programmers on the fundamentals of the Ruby langauge and web programming using Sinatra.
+
 ## EnHatch Pitch
 ### [New Jersey Tech Meetup](http://nytm.org)  
 _May 2012_  
